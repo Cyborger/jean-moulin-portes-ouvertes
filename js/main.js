@@ -18,6 +18,6 @@ const displacementFilter = new PIXI.filters.DisplacementFilter(map);
 app.stage.filters = [displacementFilter];
 
 document.addEventListener("mousemove", (e) => {
-    displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) / 20;
-    displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) / 20;
+    displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) / 30;
+    displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) / 30;
 });
