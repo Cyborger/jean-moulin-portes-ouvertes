@@ -3,14 +3,14 @@ const app = new PIXI.Application({width: window.innerWidth, height: window.inner
 document.getElementById("menu").appendChild(app.view);
 
 const img = new PIXI.Sprite.from("img/accueil.jpg");
-img.scale.set(.5, .5);
+img.scale.set(1, 1);
 img.position.set(-45, -405);
-img.alpha = .5;
+img.alpha = .3;
 app.stage.addChild(img);
 
 
 const map = new PIXI.Sprite.from("img/accueil-map.jpg");
-map.scale.set(.5, .5);
+map.scale.set(1, 1);
 map.position.set(-45, -405);
 app.stage.addChild(map);
 
@@ -18,6 +18,6 @@ const displacementFilter = new PIXI.filters.DisplacementFilter(map);
 app.stage.filters = [displacementFilter];
 
 document.addEventListener("mousemove", (e) => {
-    displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) / 100;
-    displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) / 140;
+    displacementFilter.scale.x = (window.innerWidth / 2 - e.clientX) / 20;
+    displacementFilter.scale.y = (window.innerHeight / 2 - e.clientY) / 20;
 });
