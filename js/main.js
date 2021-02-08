@@ -4,14 +4,14 @@ document.getElementById("menu").appendChild(app.view);
 
 const img = new PIXI.Sprite.from("img/accueil.jpg");
 img.scale.set(1, 1);
-img.position.set(-45, -(window.innerWidth / 5));
+img.position.set(-45, -(app.screen.height / 3));
 img.alpha = .3;
 app.stage.addChild(img);
-
+console.log(img.width, img.height)
 
 const map = new PIXI.Sprite.from("img/accueil-map.jpg");
 map.scale.set(1, 1);
-map.position.set(-45, -(window.innerWidth / 5));
+map.position.set(-45, -(app.screen.height / 3));
 app.stage.addChild(map);
 
 const displacementFilter = new PIXI.filters.DisplacementFilter(map);
