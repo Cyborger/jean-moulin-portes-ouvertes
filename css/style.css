@@ -31,6 +31,4 @@ section {
     font-size: 2pc;
     transition: transform .8s ease;
 }
-#menu .superposeHTML button:hover {
-    transform: scale(1.1, 1.1);
-}
+#menu .superposeHTML button:hover {transform: scale(1.1, 1.1);}
