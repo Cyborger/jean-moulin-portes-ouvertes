@@ -3,13 +3,11 @@ const app = new PIXI.Application({width: window.innerWidth, height: window.inner
 document.getElementById("menu").appendChild(app.view);
 
 const img = new PIXI.Sprite.from("img/accueil.jpg");
-// img.scale.set(1, 1);
 // img.position.set(-45, -1);
 img.alpha = .3;
 app.stage.addChild(img);
 
 const map = new PIXI.Sprite.from("img/accueil-map.jpg");
-// map.scale.set(1, 1);
 // map.position.set(-45, 0);
 app.stage.addChild(map);
 
