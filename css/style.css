@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 /* HTML */
-body {margin:0}
+* {outline: none;}
+body {margin:0;}
 section {
     width: 100%;
     height: 100vh;
