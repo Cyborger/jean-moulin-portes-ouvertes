@@ -2,19 +2,22 @@
 
 /* HTML */
 * {outline: none;}
+
 body {margin:0;}
+
 section {
     width: 100%;
     height: 100vh;
 }
 
 /* MENU */
-#menu canvas {
+#menu canvas{
     position: fixed;
     width: 100%;
     height: 100vh;
 }
-#menu .superposeHTML {
+
+#menu .superposeHTML{
     z-index: 1;
     position: fixed;
     display: flex;
@@ -24,7 +27,8 @@ section {
     width: 100%;
     height: 100vh;
 }
-#menu .superposeHTML .start {
+
+#menu .superposeHTML .start{
     padding: 20px 60px;
     border: 3px solid white;
     color: white;
@@ -33,18 +37,22 @@ section {
     font-size: 2pc;
     transition: transform .5s ease;
 }
+
 #menu .superposeHTML .start:hover {transform: scale(1.1, 1.1);}
+
+/* partie choix lycée / collège */
 
 .choice{
     margin:3rem;
     display:none;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction:column;
     animation:upward 1s;
     opacity:0;
 }
 
-.choice > * {
+.choice > div > button {
     width:8rem;
     padding: 10px 30px;
     font-size:1.2pc;
@@ -54,13 +62,30 @@ section {
     margin:0.2rem 2rem;
 }
 
+/* animation de transition */
+
 @keyframes upward{
     1%{
         transform:translateY(2rem);
         opacity:0;
     }
     100%{
-        
         opacity:1;
     }
+}
+
+/* partie checkbox son */
+
+.sound{
+    color:white;
+    display:flex;
+    justify-content: center;
+}
+
+label{
+    font-family: 'PT Serif', serif;
+    margin:20px 5px;
+}
+input{
+    margin:27px 0px;
 }
