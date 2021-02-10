@@ -1,23 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 /* HTML */
-* {outline: none;}
+* {outline: none !important;}
 
-body {margin:0;}
+body {margin: 0;}
 
 section {
     width: 100%;
     height: 100vh;
 }
 
+button {
+    border: 3px solid white;
+    color: white;
+    background: transparent;
+    font-family: 'PT Serif', serif;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+button.black { /* Si le fond est blanc on a juste à ajouter la classe black au bouton */
+    border: 3px solid black;
+    color: black;
+}
+
+button:hover {transform: scale(1.1, 1.1);}
+
 /* MENU */
-#menu canvas{
+#menu canvas {
     position: fixed;
     width: 100%;
     height: 100vh;
 }
 
-#menu .superposeHTML{
+#menu .superposeHTML {
     z-index: 1;
     position: fixed;
     display: flex;
@@ -28,64 +44,96 @@ section {
     height: 100vh;
 }
 
-#menu .superposeHTML .start{
+#menu .superposeHTML .start {
     padding: 20px 60px;
-    border: 3px solid white;
-    color: white;
-    background: transparent;
-    font-family: 'PT Serif', serif;
     font-size: 2pc;
-    transition: transform .5s ease;
 }
 
-#menu .superposeHTML .start:hover {transform: scale(1.1, 1.1);}
-
-/* partie choix lycée / collège */
-
-.choice{
-    margin:3rem;
-    display:none;
+/* Partie choix lycée / collège */
+.choice {
+    margin: 3rem;
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction:column;
-    animation:upward 1s;
-    opacity:0;
+    flex-direction: column;
+    animation: upward 1s;
+    opacity: 0;
+}
+
+.choice div {
+    display: flex;
+    justify-content: center;
 }
 
 .choice > div > button {
-    width:8rem;
+    width: 8rem;
     padding: 10px 30px;
-    font-size:1.2pc;
-    border:3px solid white;
-    color:white;
-    font-family: 'PT Serif', serif;
-    margin:0.2rem 2rem;
+    font-size: 1.2pc;
+    margin: .2rem 2rem;
 }
 
-/* animation de transition */
-
-@keyframes upward{
+/* Animation de transition */
+@keyframes upward {
     1%{
-        transform:translateY(2rem);
-        opacity:0;
+        transform: translateY(2rem);
+        opacity: 0;
     }
     100%{
-        opacity:1;
+        opacity: 1;
     }
 }
 
-/* partie checkbox son */
-
-.sound{
-    color:white;
-    display:flex;
-    justify-content: center;
-}
-
-label{
+/* Partie checkbox son */
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding: 0 0 0 2.5pc;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    color: white;
     font-family: 'PT Serif', serif;
-    margin:20px 5px;
+    margin: 2pc;
 }
-input{
-    margin:27px 0px;
+
+.checkboxContainer input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
+
+.checkboxContainer .fakeCheckbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5pc;
+    height: 1.5pc;
+    border: 2px solid white;
+}
+
+.fakeCheckbox:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .4s ease;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: white;
+}
+
+.checkboxContainer:hover input ~ .fakeCheckbox:after {
+    width: 60%;
+    height: 60%;
+    opacity: .8;
+}
+
+.checkboxContainer input:checked ~ .fakeCheckbox:after {
+    width: 70%;
+    height: 70%;
+    opacity: 1;
+}
+
