@@ -5,23 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean Moulin Châteaulin | Portes Ouvertes</title>
-
+    <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/base.min.css" rel="stylesheet"/>
     <!-- Meta Tags -->
     <meta name="title" content="Jean Moulin Châteaulin | Portes Ouvertes">
     <meta name="description" content="Portes ouvertes virtuelles du collège / lycée Jean Moulin de Châteaulin">
 
     <!-- CSS / JS -->
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/pixi.js"></script>
-    <script src="js/pixi-legacy.min.js"></script> <!-- Pour les personnes ne possédant pas webGL automatiquement -->
-
+    <script src="js/pixi.js" defer></script>
+    <script src="js/pixi-legacy.min.js" defer></script> <!-- Pour les personnes ne possédant pas webGL automatiquement -->
     <script src="js/main.js" defer></script>
+    <script src="js/buttonManager.js" defer async></script>
 </head>
 <body>
     <!-- Menu -->
     <section class="menu" id="menu">
         <div class="superposeHTML">
-            <button>Commencer</button>
+            <button class="start">Commencer</button>
+            <div class="choice">
+                <button>lycée</button>
+                <button>collège</button>
+            </div>
         </div>
     </section>
 </body>
