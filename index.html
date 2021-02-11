@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/pixi.js" defer></script>
     <script src="js/pixi-legacy.min.js" defer></script> <!-- Pour les personnes ne possédant pas webGL automatiquement -->
-    <script src="js/main.js" defer></script>
-    <script src="js/buttonManager.js" defer async></script>
+    <script src="js/main/main.js" defer></script>
+    <script src="js/main/buttonManager.js" defer async></script>
 </head>
 <body>
     <!-- Menu -->
@@ -24,8 +24,8 @@
             <button class="start">Commencer</button>
             <div class="choice">
                 <div>
-                    <button>Lycée</button>
-                    <button>Collège</button>
+                    <button><a href="/circuit.html?parcours=lycee">Lycée</a></button>
+                    <button><a href="/circuit.html?parcours=college">Collège</a></button>
                 </div>
                 <div class="sound">
                     <label class="checkboxContainer">Activer le son
