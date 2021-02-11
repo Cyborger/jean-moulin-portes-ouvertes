@@ -1,0 +1,110 @@
+/* Partie menu */
+#menu canvas {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#menu .superposeHTML {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#menu .superposeHTML .start {
+    padding: 20px 60px;
+    font-size: 2pc;
+}
+
+/* Partie choix lycée / collège */
+.choice {
+    margin: 3rem;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    animation: upward 1s;
+    opacity: 0;
+}
+
+.choice div {
+    display: flex;
+    justify-content: center;
+}
+
+.choice > div > button {
+    width: 8rem;
+    padding: 10px 30px;
+    font-size: 1.2pc;
+    margin: .2rem 2rem;
+}
+
+/* Partie checkbox son */
+.checkboxContainer {
+    display: block;
+    position: relative;
+    padding: 0 0 0 2.5pc;
+    cursor: pointer;
+    font-size: 1rem;
+    user-select: none;
+    color: white;
+    font-family: 'PT Serif', serif;
+    margin: 2pc;
+}
+
+.checkboxContainer input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.checkboxContainer .fakeCheckbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1.5pc;
+    height: 1.5pc;
+    border: 2px solid white;
+}
+
+.fakeCheckbox:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .4s ease;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    background-color: white;
+}
+
+.checkboxContainer:hover input ~ .fakeCheckbox:after {
+    width: 60%;
+    height: 60%;
+    opacity: .8;
+}
+
+.checkboxContainer input:checked ~ .fakeCheckbox:after {
+    width: 70%;
+    height: 70%;
+    opacity: 1;
+}
+
+/* Animations */
+@keyframes upward {
+    from {
+        transform: translateY(2rem);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
