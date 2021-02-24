@@ -8,7 +8,6 @@ function createCanvas(){
       
     const img = new PIXI.Sprite.from("img/map.png");
     img.alpha = 0.7;
-    img.anchor.set(0.1, 0.2);
     app.stage.addChild(img);
       
     document.addEventListener("mousemove", (e) => {
