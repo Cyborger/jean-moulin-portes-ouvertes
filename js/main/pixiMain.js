@@ -1,3 +1,4 @@
+// Charge le canvas pour mettre en place le depth map
 const app = new PIXI.Application({
   width: window.innerWidth,
   height: window.innerHeight,

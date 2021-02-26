@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jean Moulin Châteaulin | Portes Ouvertes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"> 
     <link href="https://unpkg.com/tailwindcss@%5E1.0/dist/base.min.css" rel="stylesheet"/>
     <!-- Meta Tags -->
     <meta name="title" content="Jean Moulin Châteaulin | Portes Ouvertes">
@@ -22,18 +23,30 @@
 <body>
     <!-- Menu -->
     <section class="menu" id="menu">
+        <img class="logo" src="img/logo.svg" height="120" width="119">
         <div class="superposeHTML">
-            <button class="start">Commencer</button>
-            <div class="choice">
-                <div>
-                    <button>Lycée</button>
-                    <button>Collège</button>
+            <div class="elements">
+                <div class="start">
+                    <span class="title subbed">JEAN MOULIN</span>
+                    <span class="subtitle">Visite virtuelle</span>
+                    <span class="description">Bienvenue sur le site de la visite virtuelle de la cité scolaire Jean Moulin!</span>
+                    <button>Commencer</button>
                 </div>
-                <div class="sound">
-                    <label class="checkboxContainer">Activer le son
-                        <input type="checkbox" name="son">
-                        <span class="fakeCheckbox"></span>
-                    </label>
+
+                <div class="choice">
+                    <span class="subtitle subbed">Bienvenue à vous!</span>
+                    <span class="description">Choisissez la visite qui vous convient</span>
+                    <div>
+                        <button>Lycée</button>
+                        <button>Collège</button>
+                    </div>
+
+                    <div class="sound">
+                        <label class="checkboxContainer">Activer le son
+                            <input type="checkbox" name="son" checked>
+                            <span class="fakeCheckbox"></span>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>

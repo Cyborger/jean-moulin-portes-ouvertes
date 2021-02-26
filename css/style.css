@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
 
 /* HTML */
 * {outline: none !important;}
@@ -11,20 +12,20 @@ section {
 }
 
 button {
-    border: 3px solid white;
+    border: 2px solid white;
     color: white;
     background: transparent;
-    font-family: 'PT Serif', serif;
-    transition: transform .5s ease;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: transform .5s ease, background-color .5s ease;
     cursor: pointer;
 }
 
 button.black { /* Si le fond est blanc on a juste à ajouter la classe black au bouton */
-    border: 3px solid black;
+    border: 2px solid black;
     color: black;
 }
 
-button:hover {transform: scale(1.1, 1.1);}
+button:hover {transform: scale(1.05, 1.05);background-color: rgba(255, 255, 255, 0.1);}
 
 /* Partie universelle */
 .fade-out, .fade-in.fade-out {
