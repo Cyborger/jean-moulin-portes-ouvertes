@@ -10,8 +10,14 @@
     height: 100vh;
 }
 
-#menu .superposeHTML {
+#menu .logo {
     z-index: 1;
+    position: fixed;
+    margin: 1%;
+}
+
+#menu .superposeHTML {
+    z-index: 2;
     position: fixed;
     display: flex;
     justify-content: center;
