@@ -1,5 +1,11 @@
-#circuit canvas {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
+body {margin: 0;overflow: hidden;}
+svg {width: 100%;height: 100%;}
+path {
+    fill-opacity: .1;
+    transition: fill-opacity .4s ease;
+    cursor: pointer;
+    stroke: rgba(255, 255, 255, 0.2);
+    stroke-width:1px;
+    stroke-linejoin: round;
 }
+path:hover {fill-opacity: .6;}
