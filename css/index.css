@@ -45,6 +45,7 @@
     width: 100vh;
     border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 4pc 6pc;
+    max-height: fit-content;
 }
 
 #menu .superposeHTML .elements .start {
@@ -52,7 +53,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: upward 1s;
+    animation: upward 1s ease;
 }
 
 #menu .superposeHTML .elements .start button {
@@ -69,7 +70,7 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    animation: upward 1s;
+    animation: upward 1s ease;
     opacity: 1;
 }
 
@@ -86,6 +87,28 @@
 }
 
 /* Partie checkbox son */
+.sound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3pc;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sound > span {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin: .5pc 0;
+    opacity: .7;
+}
+
+.sound i {
+    font-size: 30px;
+    margin-right: 1pc;
+}
+
 .checkboxContainer {
     display: block;
     position: relative;
@@ -94,8 +117,7 @@
     font-size: 1rem;
     user-select: none;
     color: white;
-    font-family: 'PT Serif', serif;
-    margin: 2pc;
+    margin: 1pc;
 }
 
 .checkboxContainer input {
