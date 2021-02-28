@@ -18,6 +18,7 @@ button {
     font-family: 'Source Sans Pro', sans-serif;
     transition: transform .5s ease, background-color .5s ease;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 button.black { /* Si le fond est blanc on a juste à ajouter la classe black au bouton */

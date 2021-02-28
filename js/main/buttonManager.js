@@ -1,13 +1,19 @@
 // Animations
 const starter = document.querySelector(".start button");
 const container = document.querySelector(".choice");
+const backButton = document.querySelector("#retour");
 
-starter.addEventListener("click", (e) => {
+// Démarre la selection de choix
+starter.addEventListener("click", e => {
   container.style.display = "flex";
+  backButton.style.display = "block";
   e.target.parentNode.style.display = "none";
-  setTimeout(() => {
-    container.style.opacity = 1;
-  }, 1000);
+});
+
+backButton.addEventListener("click", e => {
+  container.style.display = "none";
+  backButton.style.display = "none";
+  document.querySelector(".start").style.display = "flex";
 });
 
 // Redirections

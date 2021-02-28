@@ -27,6 +27,17 @@
     height: 100vh;
 }
 
+#menu #retour {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    margin: 1%;
+    font-size: 25px;
+    animation: upward 1s ease;
+    border: none;
+}
+
 /* Partie first */
 #menu .superposeHTML .elements {
     color: white;
@@ -41,6 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: upward 1s;
 }
 
 #menu .superposeHTML .elements .start button {
@@ -58,7 +70,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     animation: upward 1s;
-    opacity: 0;
+    opacity: 1;
 }
 
 .choice div {
