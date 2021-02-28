@@ -11,5 +11,13 @@ starter.addEventListener("click", (e) => {
 });
 
 // Redirections
-document.querySelectorAll(".choice div button")[0].addEventListener("click", () => { window.location.redirect("/circuit.html?parcours=lycee"); });
-document.querySelectorAll(".choice div button")[1].addEventListener("click", () => { window.location.redirect("/circuit.html?parcours=college"); });
+document
+  .querySelectorAll(".choice div button")[0]
+  .addEventListener("click", () => {
+    window.location.redirect("/circuit.html?parcours=lycee");
+  });
+document
+  .querySelectorAll(".choice div button")[1]
+  .addEventListener("click", () => {
+    window.location.redirect("/circuit.html?parcours=college");
+  });

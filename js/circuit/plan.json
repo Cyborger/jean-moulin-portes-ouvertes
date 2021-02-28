@@ -1,38 +1,36 @@
 {
-    "lycee": {
-        "batiments": [
-            {
-                "nom": "Bâtiment B",
-                "img": "img/lycee/exterieur/bat_B.png",
-                "description": "Bâtiment B du collège/lycée Jean Moulin - Accueille les différents matières portées sur les langues.",
-                "matieres": [
-                    {
-                        "nom": "Allemand",
-                        "genially": null,
-                        "videos": [
-    
-                        ]
-                    }
-                ]
-            },
-    
-            {
-                "nom": "Bâtiment E",
-                "img": "",
-                "description": "",
-                "matieres": []
-            },
-    
-            {
-                "nom": "Bâtiment G",
-                "img": "",
-                "description": "",
-                "matieres": []
-            }
+  "lycee": {
+    "batiments": [
+      {
+        "nom": "Bâtiment B",
+        "img": "img/lycee/exterieur/bat_B.png",
+        "description": "Bâtiment B du collège/lycée Jean Moulin - Accueille les différents matières portées sur les langues.",
+        "matieres": [
+          {
+            "nom": "Allemand",
+            "genially": null,
+            "videos": []
+          }
         ]
-    },
-    
-    "college": {
-        "batiments": []
-    }
+      },
+
+      {
+        "nom": "Bâtiment E",
+        "img": "",
+        "description": "",
+        "matieres": []
+      },
+
+      {
+        "nom": "Bâtiment G",
+        "img": "",
+        "description": "",
+        "matieres": []
+      }
+    ]
+  },
+
+  "college": {
+    "batiments": []
+  }
 }
