@@ -29,6 +29,12 @@ button.black { /* Si le fond est blanc on a juste à ajouter la classe black au 
 button:hover {transform: scale(1.05, 1.05);background-color: rgba(255, 255, 255, 0.1);}
 
 /* Partie universelle */
+.logo {
+    z-index: 1;
+    position: fixed;
+    margin: 1%;
+}
+
 .fade-out, .fade-in.fade-out {
     animation: fadeOut 1s ease;
     opacity: 0;
