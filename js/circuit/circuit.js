@@ -23,10 +23,9 @@ async function load(){
     const svgMain = document.querySelector("#svgContainer");
 
     for (const svgPath of svgPaths){
+        const _offset = offset(svgPath);
         svgPath.addEventListener("click", e => {
-
-            const _offset = offset(svgPath);
-            svgMain.style.transform = `translate(-${Math.floor(_offset.left)}px, ${Math.floor(_offset.top)}px) scale(2)`;
+            svgMain.style.transform = `translate(-${Math.floor(_offset.left)}px, -${Math.floor(_offset.top) * 1.5}px) scale(2)`;
         });
     }
 }
