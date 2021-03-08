@@ -22,7 +22,7 @@ document
   .addEventListener("click", () => {
     window.modal({
       title: "Avant de commencer",
-      description: "Avant de commencer la visite, voici une vidéo de la part de la direction afin de vous renseigner à propos du lycée dans la cité scolaire Jean Moulin",
+      description: "Voici une vidéo de la part de la direction.",
       youtube: "KvxhWoSN-vg",
       button: "Continuer vers la visite"
     }, () => {
@@ -35,7 +35,7 @@ document
   .addEventListener("click", () => {
     window.modal({
       title: "Avant de commencer",
-      description: "Avant de commencer la visite, voici une vidéo de la part de la direction afin de vous renseigner à propos du collège dans la cité scolaire Jean Moulin (Pas de vidéos disponible pour l'instant)",
+      description: "Voici une vidéo de la part de la direction. (Pas de vidéos disponible pour l'instant)",
       button: "Continuer vers la visite"
     }, () => {
       window.location.redirect("/circuit.html?parcours=college");
