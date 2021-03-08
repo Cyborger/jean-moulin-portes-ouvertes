@@ -81,21 +81,25 @@ class Sidebar {
             const parcours = button[button.parcours];
 
             //Ouvre la box adéquat
-            console.log(button);
+            /* const documentsActu = {
+                texte:button.
+              videos: parcours?.videos,
+              animation: parcours?.powtoon ?? parcours?.genially,
+            };*/
+            console.log(parcours);
             const currentBox = new Box("details", {
               texte: { content: parcours.texte, type: "p" },
               videos: {
-                content: [`https://www.youtube.com/embed/${parcours.videos}`, `https://www.youtube.com/embed/FtFKb3Qp-wQ`],
+                content: parcours.videos,
                 type: "iframe",
               },
-              animation: { content: [parcours.powtoon || parcours.genially], type: "iframe" },
+              animation: { content: [parcours.powtoon ?? parcours.genially], type: "iframe" },
             });
 
             currentBox.mount();
             if (document.getElementById("diaporama")) diapoImg();
             if (document.getElementById("videos")) {
               videoIntegre();
-              console.log("YEAAAA");
             }
             enhaut();
 
