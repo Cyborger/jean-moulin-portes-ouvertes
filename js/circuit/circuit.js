@@ -122,7 +122,9 @@ async function load(){
     const svgPaths = document.querySelectorAll("path");
     const svgMain = document.querySelector("#svgContainer");
     const side = new Sidebar(document.querySelector(".side"));
+
     const backButton = document.querySelector("#retour");
+    const infoButton = document.querySelector("#info");
 
     for (const svgPath of svgPaths){
         svgPath.addEventListener("click", () => { // Ouvre la sidebar avec les éléments adaptés
@@ -141,6 +143,7 @@ async function load(){
             // Ajout des boutons à la sidebar
             for (const subject of batiment.matieres){
                 if(subject[parcours] || subject.commun){
+
                     subject.parcours = parcours;
                     subject.batiment = svgPath.id;
                     side.addButton(subject);
@@ -164,6 +167,10 @@ async function load(){
         side.opened = false; // Change le booléen
         side.close(); // Ferme la sidebar
     });
+
+    infoButton.addEventListener("click", () => {
+        
+    })
 }
 
 document.querySelector("#retourmenu").addEventListener("click", () => {
