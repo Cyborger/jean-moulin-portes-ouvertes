@@ -1,3 +1,5 @@
+import { Box } from "./viou.js";
+
 // Classes
 class ClickedButtons { // Permet de désengorger la classe Sidebar
     constructor() {
@@ -65,6 +67,14 @@ class Sidebar {
 
                     buttonHTML.addEventListener('click', () => {
                         clickedButtons.addClicked(button);
+                        const parcours = button[button.parcours];
+
+                        //Ouvre la box adéquat
+                        const currentBox = new Box("details", {
+                            texte: { content: parcours.texte, type: "p" },
+                            videos: { content: parcours.videos, type: "iframe" },
+                            animation: { content: parcours.powtoon || parcours.genially }
+                        });
 
                         buttonHTML.title = "Vu";
                         buttonHTML.classList.add("viewed");
@@ -120,7 +130,6 @@ async function load(){
     const plan = await planRequest.json();
 
     const svgPaths = document.querySelectorAll("path");
-    const svgMain = document.querySelector("#svgContainer");
     const side = new Sidebar(document.querySelector(".side"));
     const backButton = document.querySelector("#retour");
 
@@ -146,7 +155,6 @@ async function load(){
                     side.addButton(subject);
                 }
             }
-
             side.commit();
         });
     }
