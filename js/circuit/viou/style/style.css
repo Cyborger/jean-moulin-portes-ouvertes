@@ -98,13 +98,6 @@ i {
   cursor: pointer;
 }
 
-.close {
-  border: 1px solid white;
-  width: 2rem;
-  border-radius: 20px;
-  transition: 0.4s;
-}
-
 .close:hover {
   border-radius: 10px;
 }
