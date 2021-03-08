@@ -4,16 +4,6 @@
         "description": "Le bâtiment C concentre la majorité des cours des collégiens et dispose notamment de la vie scolaire et de l'intendance à son entrée puis des laboratoires SVT.",
         "matieres": [
             {
-                "name": "Mots de la direction",
-                "priority": 0,
-                "lycee": {
-                    "videos": [
-                        "KvxhWoSN-vg"
-                    ]
-                },
-                "college": null
-            },
-            {
                 "name": "Secrétariat & Intendance",
                 "priority": 0,
                 "commun": {
