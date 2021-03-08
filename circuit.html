@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png">
 
     <!-- CSS / JS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/circuit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
     <script src="js/circuit/viou.js" defer></script>
     <script src="js/circuit/circuit.js" defer></script>
     <script src="js/redirectionHandler.js" defer async></script>
@@ -16,36 +18,55 @@
 
 <body>
     <main id="circuit">
-        <a href="/">
-            <img class="logo" src="img/logo.svg" height="120" width="119"/>
-        </a>
+        <a id="retourmenu"><img class="logo" src="img/logo.svg" height="120" width="119" /></a>
+        <button id="retour"><i class="zmdi zmdi-chevron-left"></i> Retour</button>
+        <div class="side"></div>
         <svg id="svgContainer" viewBox="0 0 1920 1208" fill="none" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
-            <rect width="1920" height="1208" fill="black" /> <!-- Le fond qui assombrit l'image -->
+            <rect width="1920" height="1208" fill="black" />
             <rect width="1920" height="1208" fill="url(#pattern0)" fill-opacity="0.4" />
-            <path id="Bat_C"
-                d="M834.791 690.728L897.5 670.5L962 652.5L997.5 757.5L1031.26 862.807L1027.2 872.86L899 914L832 702L834.791 690.728Z"
-                fill="#C4C4C4" fill-opacity="0" />
-            <path id="Bat_B"
-                d="M714.203 658.638L717.203 651.638L758.703 639.138L773.203 688.138L783.703 685.638L843.5 876L832.5 878.5L843.5 920.5L773.5 938L728.203 764.638L714.203 658.638Z"
-                fill="#C4C4C4" fill-opacity="0" />
-            <path id="Bat_G" d="M475 509L479 486.5L540 482L562.5 805L559.5 812.5L498.5 819L488 661.5L475 509Z"
-                fill="#C4C4C4" fill-opacity="0" />
-            <path id="Bat_E"
-                d="M781.5 547L786.5 529.5L840 513.5L833.5 490.5L855.5 484L880 471.5L889.5 497.5L1066.5 441L1061.5 423L1066.5 413.5L1128.5 398.5L1135 419L1188.92 402.83L1206 458L1201 471.5L802.5 601L781.5 547Z"
-                fill="#C4C4C4" fill-opacity="0" />
-            <path id="Bat_Self"
-                d="M1230 705.5L1281 724H1297L1339 854L1286.5 990L1268.5 984.5L1207 1009L1175.5 994.5L1160.5 1026L1108.5 1005L1230 705.5Z"
-                fill="#C4C4C4" fill-opacity="0" />
-            <path id="Bat_Dortoirs" d="M612 126L618.5 106.5L673.5 85.5L781.5 418.5L776 437.5L722 456L661.5 293L612 126Z"
-                fill="#C4C4C4" fill-opacity="0" />
+            <g clip-path="url(#clip0)">
+                <path
+                    id="B"
+                    d="M714.203 658.638L717.203 651.638L758.703 639.138L773.203 688.138L783.703 685.638L843.5 876L832.5 878.5L843.5 920.5L773.5 938L728.203 764.638L714.203 658.638Z"
+                    fill="#C4C4C4" fill-opacity="0.4" />
+                <path
+                    id="C"
+                    d="M833.791 687.728L896.5 667.5L961 649.5L996.5 754.5L1030.26 859.807L1026.2 869.86L898 911L831 699L833.791 687.728Z"
+                    fill="#C4C4C4" fill-opacity="0.4" />
+                <path 
+                    id="G"
+                    d="M475 509L479 486.5L540 482L562.5 805L559.5 812.5L498.5 819L488 661.5L475 509Z" fill="#C4C4C4"
+                    fill-opacity="0.4" />
+                <path
+                    id="E"
+                    d="M781.5 547L786.5 529.5L840 513.5L833.5 490.5L855.5 484L880 471.5L889.5 497.5L1066.5 441L1061.5 423L1066.5 413.5L1128.5 398.5L1135 419L1188.92 402.83L1206 458L1201 471.5L802.5 601L781.5 547Z"
+                    fill="#C4C4C4" fill-opacity="0.4" />
+                <path
+                    id="Self"
+                    d="M1230 705.5L1281 724H1297L1339 854L1286.5 990L1268.5 984.5L1207 1009L1175.5 994.5L1160.5 1026L1108.5 1005L1230 705.5Z"
+                    fill="#C4C4C4" fill-opacity="0.4" />
+                <path 
+                    id="D"
+                    d="M612 126L618.5 106.5L673.5 85.5L781.5 418.5L776 437.5L722 456L661.5 293L612 126Z"
+                    fill="#C4C4C4" fill-opacity="0.4" />
+                <path 
+                    id="EPS"
+                    d="M558.5 910L1005 1083L959.5 1210H508L524.5 1057L537.5 977L558.5 910Z" fill="#C4C4C4"
+                    fill-opacity="0.4" />
+            </g>
             <defs>
                 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
                     <use xlink:href="#image0" transform="scale(0.000520833 0.000827815)" />
                 </pattern>
-                <image id="image0" width="1920" height="1208" xlink:href="/img/map.jpg" />
+                <clipPath id="clip0">
+                    <rect width="1920" height="1208" fill="white" />
+                </clipPath>
+                <image id="image0" width="1920" height="1208"
+                    xlink:href="/img/map.jpg" />
             </defs>
         </svg>
+
     </main>
 </body>
 

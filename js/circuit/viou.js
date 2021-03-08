@@ -40,8 +40,10 @@ export class Box {
     const container = document.createElement("div");
     container.classList.add("parent");
     container.innerHTML = this.compo;
+
     const stylisation = document.createElement("style");
     stylisation.innerHTML = this.style;
+    
     container.appendChild(stylisation);
     document.getElementById(this.id).appendChild(container);
   }
