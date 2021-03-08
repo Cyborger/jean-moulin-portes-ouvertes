@@ -1,9 +1,9 @@
-window.modal = function({ title, description=null, youtube=null, button }, callback){
+window.modal = function({ title, youtube=null, button }, callback){
     const modalContainer = document.createElement("div");
     modalContainer.classList.add("modal_container");
 
     const modal = document.createElement("div");
-    modal.innerHTML = `<span class="title">${title}</span> <span class="description">${description}</span>`;
+    modal.innerHTML = `<span class="title">${title}</span>`;
     if(youtube != null) modal.innerHTML += `<iframe src="https://www.youtube.com/embed/${youtube}" frameborder="0"></iframe>`;
     modal.innerHTML += '<div class="buttonContent"></div>';
 
