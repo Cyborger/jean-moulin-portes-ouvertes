@@ -21,6 +21,18 @@
     height: 100vh;
 }
 
+#retour {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    bottom: 0;
+    margin: 1%;
+    font-size: 25px;
+    animation: upward 1s ease;
+    border: none;
+    transform: none;
+}
+
 /* Partie first */
 #menu .superposeHTML .elements {
     color: white;
