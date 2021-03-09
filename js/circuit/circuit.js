@@ -1,110 +1,162 @@
+import { Box } from "./viou.js";
+
 // Classes
-class ClickedButtons { // Permet de désengorger la classe Sidebar
-    constructor() {
-        this.clicked = JSON.parse(localStorage.getItem('ClickedButtons'));
+class ClickedButtons {
+  // Permet de désengorger la classe Sidebar
+  constructor() {
+    this.clicked = JSON.parse(localStorage.getItem("ClickedButtons"));
 
-        if (this.clicked === null) { // Préviens des cas où ClickedButtons n'est pas encore défini dans le localStorage
-            this.clicked = [];
-        }
+    if (this.clicked === null) {
+      // Préviens des cas où ClickedButtons n'est pas encore défini dans le localStorage
+      this.clicked = [];
     }
+  }
 
-    addClicked(button) { // Permet d'ajouter un bouton à la liste des boutons cliqués au localStorage
-        if (this.getClicked(button) === undefined) {
-            this.clicked.push(`${button.parcours.slice(0, 1)}${button.priority}${button.batiment}${button.name.slice(0, 3)}${button.name.slice(-3)}`); // Le premier argument permet de donner un identifiant unique au bouton
-            localStorage.setItem('ClickedButtons', JSON.stringify(this.clicked));
-        }
+  addClicked(button) {
+    // Permet d'ajouter un bouton à la liste des boutons cliqués au localStorage
+    if (this.getClicked(button) === undefined) {
+      this.clicked.push(
+        `${button.parcours.slice(0, 1)}${button.priority}${button.batiment}${button.name.slice(0, 3)}${button.name.slice(-3)}`
+      ); // Le premier argument permet de donner un identifiant unique au bouton
+      localStorage.setItem("ClickedButtons", JSON.stringify(this.clicked));
     }
+  }
 
-    getClicked(button) { // Permet de trouver si le bouton a déjà été cliqué (retourne undefined le cas échéant)
-        return this.clicked.find(element => element === `${button.parcours.slice(0, 1)}${button.priority}${button.batiment}${button.name.slice(0, 3)}${button.name.slice(-3)}`);
-    }
+  getClicked(button) {
+    // Permet de trouver si le bouton a déjà été cliqué (retourne undefined le cas échéant)
+    return this.clicked.find(
+      (element) =>
+        element ===
+        `${button.parcours.slice(0, 1)}${button.priority}${button.batiment}${button.name.slice(0, 3)}${button.name.slice(-3)}`
+    );
+  }
 }
 
 class Sidebar {
-    constructor(parent) {
-        this.parent = parent;
-        this.opened = false;
-        
-        this.buttons = [
-            {"name": "Points d'Intérêt", "buttons": []},
-            {"name": "Matières Communes", "buttons": []},
-            {"name": "Spécialités", "buttons": []},
-            {"name": "Options", "buttons": []}
-        ];
-    }
+  constructor(parent) {
+    this.parent = parent;
+    this.opened = false;
 
-    commit() {
-        this.parent.innerHTML = ""; // Permet de mettre à jour le contenu en supprimant celui existant
-        this.opened = true; // Change le status de la sidebar
+    this.buttons = [
+      { name: "Points d'Intérêt", buttons: [] },
+      { name: "Matières Communes", buttons: [] },
+      { name: "Spécialités", buttons: [] },
+      { name: "Options", buttons: [] },
+    ];
+  }
 
-        this.parent.appendChild(this.titleHTML);
-        this.parent.appendChild(this.descriptionHTML);
+  commit() {
+    this.parent.innerHTML = ""; // Permet de mettre à jour le contenu en supprimant celui existant
+    this.opened = true; // Change le status de la sidebar
 
-        const clickedButtons = new ClickedButtons();
+    this.parent.appendChild(this.titleHTML);
+    this.parent.appendChild(this.descriptionHTML);
 
-        for (const element of this.buttons) {
-            if (element.buttons.length !== 0) { // Pour éviter la création d'un sous-titre inutile
-                const subtitleHTML = document.createElement("span");
-                subtitleHTML.className = "subtitle";
-                subtitleHTML.innerHTML = element.name;
+    const clickedButtons = new ClickedButtons();
 
-                this.parent.appendChild(subtitleHTML);
+    for (const element of this.buttons) {
+      if (element.buttons.length !== 0) {
+        // Pour éviter la création d'un sous-titre inutile
+        const subtitleHTML = document.createElement("span");
+        subtitleHTML.className = "subtitle";
+        subtitleHTML.innerHTML = element.name;
 
-                const subjectsHTML = document.createElement("div");
-                subjectsHTML.className = "subjects";
+        this.parent.appendChild(subtitleHTML);
 
-                for (const button of element.buttons) {
-                    const buttonHTML = document.createElement("button");
-                    buttonHTML.type = "button";
-                    buttonHTML.innerText = button.name;
+        const subjectsHTML = document.createElement("div");
+        subjectsHTML.className = "subjects";
 
-                    if (clickedButtons.getClicked(button) !== undefined) {
-                        buttonHTML.title = "Vu";
-                        buttonHTML.classList.add("viewed");
-                    }
+        for (const button of element.buttons) {
+          const buttonHTML = document.createElement("button");
+          buttonHTML.type = "button";
+          buttonHTML.innerText = button.name;
 
-                    buttonHTML.addEventListener('click', () => {
-                        clickedButtons.addClicked(button);
+          if (clickedButtons.getClicked(button) !== undefined) {
+            buttonHTML.title = "Vu";
+            buttonHTML.classList.add("viewed");
+          }
 
-                        buttonHTML.title = "Vu";
-                        buttonHTML.classList.add("viewed");
-                    })
+          buttonHTML.addEventListener("click", () => {
+            clickedButtons.addClicked(button);
+            const parcours = button[button.parcours];
 
-                    subjectsHTML.appendChild(buttonHTML);
-                }
-
-                this.parent.appendChild(subjectsHTML);
-                element.buttons = []; // Réinitialise la liste de boutons afin d'éviter l'empilement
+            //Ouvre la box adéquat
+            const documentsActu = {
+              texte: { content: parcours.texte, type: "p" },
+              diaporama: { content: parcours?.images, type: "img" },
+              videos: { content: parcours?.videos, type: "iframe" },
+              animation: { content: parcours?.powtoon ?? parcours?.genially, type: "iframe" },
+            };
+            const elementPresents = {};
+            for (const element of Object.entries(documentsActu)) {
+              console.log(element);
+              if (element[1].content) {
+                elementPresents[element[0]] = element[1];
+              }
             }
+            console.log(parcours);
+            const currentBox = new Box(
+              "details",
+              elementPresents /* {
+              texte: { content: parcours.texte, type: "p" },
+              videos: {
+                content: parcours.videos,
+                type: "iframe",
+              },
+              animation: { content: parcours.powtoon ?? parcours.genially, type: "iframe" },
+            }*/
+            );
+
+            currentBox.mount();
+            if (document.getElementById("diaporama")) diapoImg();
+            if (document.getElementById("videos")) {
+              videoIntegre();
+            }
+            enhaut();
+
+            buttonHTML.title = "Vu";
+            buttonHTML.classList.add("viewed");
+          });
+
+          subjectsHTML.appendChild(buttonHTML);
         }
-        
-        this.parent.style.transform = "translate(-100%)"; // Afin d'afficher la sidebar
+
+        this.parent.appendChild(subjectsHTML);
+        element.buttons = []; // Réinitialise la liste de boutons afin d'éviter l'empilement
+      }
     }
 
-    close(){ this.parent.style.transform = "translate(0)"; /* Afin de cacher la sidebar */ }
+    this.parent.style.transform = "translate(-100%)"; // Afin d'afficher la sidebar
+  }
 
-    addButton(button) { this.buttons[button.priority].buttons.push(button); }
+  close() {
+    this.parent.style.transform = "translate(0)"; /* Afin de cacher la sidebar */
+  }
 
-    set title(value) {
-        this.titleHTML = document.createElement("span");
-        this.titleHTML.className = "title";
-        this.titleHTML.innerHTML = value;
-    }
+  addButton(button) {
+    this.buttons[button.priority].buttons.push(button);
+  }
 
-    set description(value) {
-        this.descriptionHTML = document.createElement("span");
-        this.descriptionHTML.className = "description";
-        this.descriptionHTML.innerHTML = value;
-    }
+  set title(value) {
+    this.titleHTML = document.createElement("span");
+    this.titleHTML.className = "title";
+    this.titleHTML.innerHTML = value;
+  }
+
+  set description(value) {
+    this.descriptionHTML = document.createElement("span");
+    this.descriptionHTML.className = "description";
+    this.descriptionHTML.innerHTML = value;
+  }
 }
 
 // Fonctions
 function offset(el) {
-    const rect = el.getBoundingClientRect(),
-          scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-          scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  const rect = el.getBoundingClientRect(),
+    scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+    scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+  return { top: rect.top + scrollTop, left: rect.left + scrollLeft };
 }
 
 // Charge le circuit
@@ -139,7 +191,9 @@ async function load(){
 
             svgPath.classList.add("selected");
             const notSelectedPaths = document.querySelectorAll("path:not(.selected)");
-            for (const path of notSelectedPaths){ path.classList.add("hiddenPath"); } // Cache les autres bâtiments
+            for (const path of notSelectedPaths){
+              path.classList.add("hiddenPath");
+            } // Cache les autres bâtiments
 
             backButton.style.display = "block"; // Montre le bouton retour
 
@@ -152,7 +206,6 @@ async function load(){
                     side.addButton(subject);
                 }
             }
-
             side.commit();
         });
     }
@@ -181,6 +234,6 @@ async function load(){
 }
 
 document.querySelector("#retourmenu").addEventListener("click", () => {
-    window.location.redirect("/");
+  window.location.redirect("/");
 });
 load();

@@ -10,13 +10,19 @@
     <!-- CSS / JS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/circuit.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
-    <script src="js/circuit/viou.js" defer></script>
-    <script src="js/circuit/circuit.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+    <script src="js/circuit/circuit.js" defer type="module"></script>
     <script src="js/redirectionHandler.js" defer async></script>
+
+    <!-- Scripts du viou -->
+    <script src="js/circuit/viou/onglets.js" defer></script>
+    <script src="js/circuit/viou/diaporama.js" defer></script>
+    <script src="js/circuit/viou/diapoVideo.js" defer></script>
+    <link rel="stylesheet" href="js/circuit/viou/style/style.css"></link>
 </head>
 
 <body>
+    <div id="details"></div>
     <main id="circuit">
         <a id="retourmenu"><img class="logo" src="img/logo.svg" height="120" width="119" /></a>
         <div class="buttonsInteraction">
