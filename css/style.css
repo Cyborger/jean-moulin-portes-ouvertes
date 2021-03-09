@@ -55,19 +55,6 @@ button:hover {
   opacity: 1;
 }
 
-#retour {
-  display: none;
-  position: fixed;
-  z-index: 3;
-  bottom: 0;
-  margin: 1%;
-  font-size: 25px;
-  animation: upward 1s ease;
-  border: none;
-  background: rgba(0, 0, 0, 0.6);
-  border-radius: 3px;
-}
-
 /* Modal */
 .modal_container {
   position: fixed;

@@ -160,67 +160,77 @@ function offset(el) {
 }
 
 // Charge le circuit
-async function load() {
-  const currentURL = new URLSearchParams(window.location.search); // Récupère l'url actuelle
-  const parcours = currentURL.get("parcours"); // Récupère le parcours actuel
-  const parcoursDisponibles = ["college", "lycee"]; // Les parcours disponibles
+async function load(){
+    const currentURL = new URLSearchParams(window.location.search); // Récupère l'url actuelle
+    const parcours = currentURL.get("parcours"); // Récupère le parcours actuel
+    const parcoursDisponibles = ["college", "lycee"]; // Les parcours disponibles
 
-  if (!parcoursDisponibles.includes(parcours)) return window.location.redirect("/"); // Regarde si on peut récupérer le parcours, sinon redirige
-  document.title = `Jean Moulin | Visite ${parcours}`; // Change le titre du document
+    if(!parcoursDisponibles.includes(parcours)) return window.location.redirect("/"); // Regarde si on peut récupérer le parcours, sinon redirige
+    document.title = `Jean Moulin | Visite ${parcours}`; // Change le titre du document
 
-  const planRequest = await fetch("js/circuit/plan.json"); // Récupère le plan
-  const plan = await planRequest.json();
+    const planRequest = await fetch("js/circuit/plan.json"); // Récupère le plan
+    const plan = await planRequest.json();
 
-  const svgPaths = document.querySelectorAll("path");
-  const side = new Sidebar(document.querySelector(".side"));
-  const backButton = document.querySelector("#retour");
+    const svgPaths = document.querySelectorAll("path");
+    const svgMain = document.querySelector("#svgContainer");
+    const side = new Sidebar(document.querySelector(".side"));
 
-  for (const svgPath of svgPaths) {
-    svgPath.addEventListener("click", () => {
-      // Ouvre la sidebar avec les éléments adaptés
-      if (side.opened) return; // La sidebar est déjà ouverte donc pas de changement de batiments
-      const batiment = plan.filter((element) => element.id === svgPath.id)[0]; // Permet de récupérer les variables du plan pour le bâtiment cliqué
+    const backButton = document.querySelector("#retour");
 
-      side.title = ["Self", "EPS"].includes(svgPath.id) ? svgPath.id : `Bâtiment ${svgPath.id}`;
-      side.description = batiment.description;
+    const infoButton = document.querySelector("#info");
+    const infoBackButton = document.querySelector("#close")
+    const infoBoxContainer = document.querySelector(".infoBoxContainer");
 
-      svgPath.classList.add("selected");
-      const notSelectedPaths = document.querySelectorAll("path:not(.selected)");
-      for (const path of notSelectedPaths) {
-        path.classList.add("hiddenPath");
-      } // Cache les autres bâtiments
+    for (const svgPath of svgPaths){
+        svgPath.addEventListener("click", () => { // Ouvre la sidebar avec les éléments adaptés
+            if(side.opened) return; // La sidebar est déjà ouverte donc pas de changement de batiments
+            const batiment = plan.filter(element => element.id === svgPath.id)[0]; // Permet de récupérer les variables du plan pour le bâtiment cliqué
+            
+            side.title = ["Self", "EPS"].includes(svgPath.id) ? svgPath.id : `Bâtiment ${svgPath.id}`;
+            side.description = batiment.description;
 
-      backButton.style.display = "block"; // Montre le bouton retour
+            svgPath.classList.add("selected");
+            const notSelectedPaths = document.querySelectorAll("path:not(.selected)");
+            for (const path of notSelectedPaths){
+              path.classList.add("hiddenPath");
+            } // Cache les autres bâtiments
 
-      // Ajout des boutons à la sidebar
-      for (const subject of batiment.matieres) {
-        if (subject[parcours] || subject.commun) {
-          subject.parcours = parcours;
-          subject.batiment = svgPath.id;
-          side.addButton(subject);
-        }
-      }
-      side.commit();
+            backButton.style.display = "block"; // Montre le bouton retour
+
+            // Ajout des boutons à la sidebar
+            for (const subject of batiment.matieres){
+                if(subject[parcours] || subject.commun){
+
+                    subject.parcours = parcours;
+                    subject.batiment = svgPath.id;
+                    side.addButton(subject);
+                }
+            }
+            side.commit();
+        });
+    }
+
+    backButton.addEventListener("click", () => {
+        if(!side.opened) return; // Si la sidebar n'est pas ouverte, le bouton ne devrait pas être activé
+        backButton.style.display = "none";
+
+        const notSelectedPaths = document.querySelectorAll("path");
+        for (const path of notSelectedPaths){ 
+            if (path.classList.contains("selected")){ path.classList.remove("selected"); }  // Si le bâtiment itéré était sélectionné, on supprime la classe selected
+            else{ path.classList.remove("hiddenPath"); } // Sinon on supprime la classe hiddenPath
+        } // Remontre tous les bâtiments
+
+        side.opened = false; // Change le booléen
+        side.close(); // Ferme la sidebar
     });
-  }
 
-  backButton.addEventListener("click", () => {
-    if (!side.opened) return; // Si la sidebar n'est pas ouverte, le bouton ne devrait pas être activé
-    backButton.style.display = "none";
+    infoButton.addEventListener("click", () => {
+        infoBoxContainer.style.display = "flex"
+    })
 
-    const notSelectedPaths = document.querySelectorAll("path");
-    for (const path of notSelectedPaths) {
-      if (path.classList.contains("selected")) {
-        path.classList.remove("selected");
-      } // Si le bâtiment itéré était sélectionné, on supprime la classe selected
-      else {
-        path.classList.remove("hiddenPath");
-      } // Sinon on supprime la classe hiddenPath
-    } // Remontre tous les bâtiments
-
-    side.opened = false; // Change le booléen
-    side.close(); // Ferme la sidebar
-  });
+    infoBackButton.addEventListener("click", () => {
+        infoBoxContainer.style.display = "none"
+    })
 }
 
 document.querySelector("#retourmenu").addEventListener("click", () => {
