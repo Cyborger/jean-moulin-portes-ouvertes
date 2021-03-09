@@ -54,7 +54,7 @@ i {margin-right: 0.8pc;}
 .infoBoxContainer {
     z-index: 3;
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     background: rgba(0, 0, 0, 0.95);
@@ -67,12 +67,30 @@ i {margin-right: 0.8pc;}
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    width: 30%;
-    padding: 0 2%;
+    width: 35%;
+    height: 80vh;
+    animation: upward 1s ease;
+}
+
+.infoBox > .content {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-y: scroll;
+    padding: 5%;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
+.infoBox > .content > .title {
+    margin: 2%;
+}
+
+.infoBox > .content > p {
+    margin: 2%;
+}
+
 .infoBox > button {
+    margin-top: 1vh;
     transform: none;
 }
 

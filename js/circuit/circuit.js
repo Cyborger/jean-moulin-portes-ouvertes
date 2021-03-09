@@ -124,7 +124,10 @@ async function load(){
     const side = new Sidebar(document.querySelector(".side"));
 
     const backButton = document.querySelector("#retour");
+
     const infoButton = document.querySelector("#info");
+    const infoBackButton = document.querySelector("#close")
+    const infoBoxContainer = document.querySelector(".infoBoxContainer");
 
     for (const svgPath of svgPaths){
         svgPath.addEventListener("click", () => { // Ouvre la sidebar avec les éléments adaptés
@@ -169,7 +172,11 @@ async function load(){
     });
 
     infoButton.addEventListener("click", () => {
-        
+        infoBoxContainer.style.display = "flex"
+    })
+
+    infoBackButton.addEventListener("click", () => {
+        infoBoxContainer.style.display = "none"
     })
 }
 
