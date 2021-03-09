@@ -21,8 +21,7 @@ document
   .querySelectorAll(".choice div button")[0]
   .addEventListener("click", () => {
     window.modal({
-      title: "Avant de commencer",
-      description: "Voici une vidéo de la part de la direction.",
+      title: "Le mot de la direction",
       youtube: "KvxhWoSN-vg",
       button: "Continuer vers la visite"
     }, () => {
@@ -34,8 +33,8 @@ document
   .querySelectorAll(".choice div button")[1]
   .addEventListener("click", () => {
     window.modal({
-      title: "Avant de commencer",
-      description: "Voici une vidéo de la part de la direction. (Pas de vidéos disponible pour l'instant)",
+      title: "Le mot de la direction",
+      youtube: "KvxhWoSN-vg",
       button: "Continuer vers la visite"
     }, () => {
       window.location.redirect("/circuit.html?parcours=college");
