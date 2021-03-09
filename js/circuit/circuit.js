@@ -172,14 +172,15 @@ async function load(){
     const plan = await planRequest.json();
 
     const svgPaths = document.querySelectorAll("path");
-    const svgMain = document.querySelector("#svgContainer");
     const side = new Sidebar(document.querySelector(".side"));
 
     const backButton = document.querySelector("#retour");
+    const closer = document.querySelector("#closeSidebarRegion");
 
     const infoButton = document.querySelector("#info");
     const infoBackButton = document.querySelector("#close")
     const infoBoxContainer = document.querySelector(".infoBoxContainer");
+
 
     for (const svgPath of svgPaths){
         svgPath.addEventListener("click", () => { // Ouvre la sidebar avec les éléments adaptés
@@ -196,6 +197,7 @@ async function load(){
             } // Cache les autres bâtiments
 
             backButton.style.display = "block"; // Montre le bouton retour
+            closer.style.display = "block"; // Montre la div closer
 
             // Ajout des boutons à la sidebar
             for (const subject of batiment.matieres){
@@ -210,9 +212,25 @@ async function load(){
         });
     }
 
+    closer.addEventListener("click", () => {
+        if(!side.opened) return; // Si la sidebar n'est pas ouverte, le bouton ne devrait pas être activé
+        backButton.style.display = "none";
+        closer.style.display = "none";
+
+        const notSelectedPaths = document.querySelectorAll("path");
+        for (const path of notSelectedPaths){ 
+            if (path.classList.contains("selected")){ path.classList.remove("selected"); }  // Si le bâtiment itéré était sélectionné, on supprime la classe selected
+            else{ path.classList.remove("hiddenPath"); } // Sinon on supprime la classe hiddenPath
+        } // Remontre tous les bâtiments
+
+        side.opened = false; // Change le booléen
+        side.close(); // Ferme la sidebar
+    });
+
     backButton.addEventListener("click", () => {
         if(!side.opened) return; // Si la sidebar n'est pas ouverte, le bouton ne devrait pas être activé
         backButton.style.display = "none";
+        closer.style.display = "none";
 
         const notSelectedPaths = document.querySelectorAll("path");
         for (const path of notSelectedPaths){ 
