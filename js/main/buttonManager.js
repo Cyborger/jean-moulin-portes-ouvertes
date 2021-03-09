@@ -32,11 +32,5 @@ document
 document
   .querySelectorAll(".choice div button")[1]
   .addEventListener("click", () => {
-    window.modal({
-      title: "Le mot de la direction",
-      youtube: "KvxhWoSN-vg",
-      button: "Continuer vers la visite"
-    }, () => {
-      window.location.redirect("/circuit.html?parcours=college");
-    });
+    window.location.redirect("/circuit.html?parcours=college");
   });
