@@ -73,7 +73,7 @@ export class Box {
       }
     }
     upper += `</div>
-    <i class="close zmdi zmdi-close-circle-o zmdi-hc-3x"></i>
+    <i class="close zmdi zmdi-close zmdi-hc-3x"></i>
     </div>
     
     `; // div de fin pour fermer notre div class="onglets"
