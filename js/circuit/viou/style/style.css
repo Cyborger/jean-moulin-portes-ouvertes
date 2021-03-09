@@ -42,6 +42,7 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  animation: upward .5s ease;
 }
 
 .onglets {

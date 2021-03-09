@@ -233,7 +233,6 @@ async function load(){
     })
 }
 
-document.querySelector("#retourmenu").addEventListener("click", () => {
-  window.location.redirect("/");
-});
+document.querySelector("#retourmenu").addEventListener("click", () => window.location.redirect("/"));
+document.querySelector("#dateActuelle").innerHTML = new Date().getFullYear();
 load();
