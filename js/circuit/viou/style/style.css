@@ -104,6 +104,16 @@ i {
 
 #texte {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  text-align: center;
+  line-height: 30px;
+  padding: 4rem;
+  overflow-y: scroll;
+  word-wrap: break-word;
 }
 
 #videos {

@@ -17,8 +17,13 @@ function videoIntegre() {
   changeVideo(0);
 
   acc = 0;
-
   pushed = document.getElementsByClassName("zmdi-videos");
+  if (diapoVideo.length === 1) {
+    for (const elem of pushed) {
+      elem.style.color = "grey";
+      elem.style.cursor = "not-allowed";
+    }
+  }
   pushed[0].addEventListener("click", (e) => {
     acc -= 1;
     if (acc < 0) {

@@ -7,6 +7,7 @@
         "name": "Mots de la direction",
         "priority": 0,
         "lycee": {
+          "texte": "Voici les mots de la direction, dans cette section, la proviseure de l'établissement vous présentera les débuts dans la classe de seconde au lycée Jean Moulin Chateaulin ainsi que ce qui arrivera après la seconde.",
           "videos": ["https://www.youtube.com/embed/KvxhWoSN-vg"]
         },
         "college": null
@@ -14,6 +15,12 @@
       {
         "name": "Secrétariat & Intendance",
         "priority": 0,
+        "college": {
+          "texte": "Voici un document du Secrétariat et de l'intendance sur l'inscription en 6e au collège Jean Moulin.<br/><a>cliquez ici pour y accéder</a>"
+        },
+        "lycee": {
+          "texte": "Voici une petite illustration concernant les services administratifs du lycée Jean Moulin.<br/><a>cliquez ici pour y accéder</a>"
+        },
         "commun": {
           "pdf": [
             "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/linscription-en-6e-deroulement-et-calendrier-2021.pdf"
@@ -26,16 +33,18 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "texte": "Projet Micro-climat : Depuis maintenant deux ans, les élèves de l’ULIS, de Toul ar c’hoat et de l’école Marie Curie se sont lancés dans un projet radio sur les climats, projet intitulé « Micro-climat ». Les élèves ont observé le climat et ses changements dans le monde. Ils ont réalisé des reportages sur les villes et leurs climats. Ils ont conçu une carte sur laquelle on peut découvrir ces reportages : umap.openstreetmap.fr/fr/map/projet-micro-climat-radio-evasion-atlas-sonore-des_424865Projet Mythologie :Les élèves d’ULIS et de 6ème ont réalisé un projet sur la mythologie. Ils ont réécrit des contes mythologiques avec l’idée de les transposer à l’époque actuelle. Puis ils ont enregistré ces contes à la radio.Voici le lien :soundcloud.com/user-259373327/sets/2018-les-metamorphoses-laLe potager ( photos en pièces jointes) :\nLes élèves de l'ULIS ont réalisé un potager à côté du self. Les élèves ont dans un premier temps construit six carrés en bois de 1.20m x 1.20m. Par la suite des semis ont été réalisés dans les serres du LEGTA, le lycée horticole de Châteaulin. En avril les semis réalisés ont été mis en terre et très vite des salades, des betteraves, oignons, potirons, courges, plantes arômatiques et courgettes ont poussé. Régulièrement, les élèves réalisent des paniers de légumes et de plantes aromatiques. Ils apportent au self les légumes où le chef et son équipe se font un plaisir de les cuisiner.\nLe projet avec le Run ar Puns (photo en pièces jointes) :Cette année les élèves de l'ULIS participent à un projet avec le Run ar Puns. Gabriel de Villeneuve, auteur-compositeur-interprète du groupe \"La Goutte\" intervient auprès des élèves pour les aider à écrire des chansons. Chansons que Gabriel met en musique et qui seront par la suite enregistrées par les élèves au studio d'enregistrement du Germoir à Châteaulin. N'hésitez pas à donner mon adresse mail aux familles ewan.guillou@ac-rennes.fr"
+          "texte": "<br/><br/><br/><br/><br/><br/>Projet Micro-climat : Depuis maintenant deux ans, les élèves de l’ULIS, de Toul ar c’hoat et de l’école Marie Curie se sont lancés dans un projet radio sur les climats, un projet intitulé « Micro-climat ».<br/> Les élèves ont observé le climat et ses changements dans le monde. Ils ont réalisé des reportages sur les villes et leurs climats. Ils ont conçu une carte sur laquelle on peut découvrir ces reportages : <br/><a>umap.openstreetmap.fr/fr/map/projet-micro-climat-radio-evasion-atlas-sonore-des_424865</a><br/><br/>Projet Mythologie<br/> Les élèves d’ULIS et de 6ème ont réalisé un projet sur la mythologie. Ils ont réécrit des contes mythologiques avec l’idée de les transposer à l’époque actuelle. Puis ils ont enregistré ces contes à la radio.<br/>Voici le lien :<br/><a>soundcloud.com/user-259373327/sets/2018-les-metamorphoses-la</a><br/><br/>Le potager:<br/>Les élèves de l'ULIS ont réalisé un potager à côté du self. Les élèves ont dans un premier temps construit six carrés en bois de 1.20m x 1.20m. Par la suite des semis ont été réalisés dans les serres du LEGTA, le lycée horticole de Châteaulin. En avril les semis réalisés ont été mis en terre et très vite des salades, des betteraves, oignons, potirons, courges, plantes arômatiques et courgettes ont poussé.<br/> Régulièrement, les élèves réalisent des paniers de légumes et de plantes aromatiques. Ils apportent au self les légumes où le chef et son équipe se font un plaisir de les cuisiner.<br/><br/>Le projet avec le Run ar Puns:<br/> Cette année les élèves de l'ULIS participent à un projet avec le Run ar Puns. Gabriel de Villeneuve, auteur-compositeur-interprète du groupe \"La Goutte\" intervient auprès des élèves pour les aider à écrire des chansons. Chansons que Gabriel met en musique et qui seront par la suite enregistrées par les élèves au studio d'enregistrement du Germoir à Châteaulin.<br/> N'hésitez pas à donner mon adresse mail aux familles ewan.guillou@ac-rennes.fr"
         }
       },
       {
         "name": "Vie Scolaire",
         "priority": 0,
         "lycee": {
+          "texte": "La Vie Scolaire",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         },
         "college": {
+          "texte": "La Vie Scolaire",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         }
       },
@@ -44,6 +53,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
+          "texte": "Sur cette Section, nous vous présenterons une petite vidéo-capsule sur les mathématiques au collège, leur fonctionnement et l'accompagnement proposé.",
           "videos": ["https://www.youtube.com/embed/_SWYMHrRJdg"]
         }
       },
@@ -52,7 +62,8 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "genially": "https://view.genial.ly/60264957d4fb4a0d20690ae6"
+          "texte": "Sur cette catégorie, nous vous présenterons le français au collège, un matière essentielle à tous les élèves.",
+          "genially": ["https://view.genial.ly/60264957d4fb4a0d20690ae6"]
         }
       },
       {
@@ -62,7 +73,8 @@
           "videos": ["https://www.youtube.com/embed/ZH-kfo_Dw4I"]
         },
         "college": {
-          "genially": "https://view.genial.ly/601990bc4fff9e0d8699aa8f"
+          "texte": "Sur cette catégorie, vous allez être guidé sur une animation pour vous présenter l'histoire et la géographie au collège.",
+          "genially": ["https://view.genial.ly/601990bc4fff9e0d8699aa8f"]
         }
       },
       {
@@ -87,10 +99,12 @@
         "name": "Allemand",
         "priority": 1,
         "lycee": {
-          "powtoon": ["efStEhlnSXl"]
+          "texte": "Présentation de l'Allemand au lycée, une langue vivante pratiquée 2 heures par semaine.",
+          "powtoon": ["https://www.powtoon.com/embed/efStEhlnSXl"]
         },
         "college": {
-          "powtoon": ["fn3VJ8Jwua4"]
+          "texte": "Présentation de l'Allemand au collège, Une des langues vivantes présentes au collège Jean Moulin Chateaulin.",
+          "powtoon": ["https://www.powtoon.com/embed/fn3VJ8Jwua4"]
         }
       },
       {
@@ -98,7 +112,8 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "genially": "https://view.genial.ly/6016c75e1bd3060d78c63b87"
+          "texte": "Présentation de l'Anglais au collège, une langue obligatoire dans le cursus scolaire avec 4 heures de cours par semaine.",
+          "genially": ["https://view.genial.ly/6016c75e1bd3060d78c63b87"]
         }
       },
       {
@@ -106,6 +121,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
+          "texte": "L'Art plastique est une matière exclusive au collège, voici un document pour découvrir ce qu'on y fait.<br/>pour y accéder <a>cliquez ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf"]
         }
       },
@@ -114,6 +130,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
+          "texte": "L'éductation musicale est une matière exclusive au collège, Sur cette partie vous verrez deux petites vidéos pour découvrir les activités réalisées.",
           "videos": ["https://www.youtube.com/embed/oe_WY9FRDFc", "https://www.youtube.com/embed/JEBclH5viCg"]
         }
       },
@@ -131,6 +148,7 @@
         "name": "Humanités, Littérature et Philosophie",
         "priority": 2,
         "lycee": {
+          "texte": "Dans cette catégorie nous vous présenterons la spécialité Humanités, Littérature et Philosophie, une spécialité accesible après la seconde.<br/> un document pdf est mis à votre disposition pour vous informer sur cette spécialité, pour y accéder, <a>cliquez ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf"],
           "videos": ["https://www.youtube.com/embed/yVnp1w852SA", "https://www.youtube.com/embed/AueBjanSZLU"]
         },
@@ -140,7 +158,8 @@
         "name": "Langues, Littératures et Civilisations Étrangères",
         "priority": 2,
         "lycee": {
-          "genially": "https://view.genial.ly/602e54f39689f70d371aa864"
+          "texte": "Dans cette catégorie nous allons vous présenter la spécialité Langues, Littératures et Civilisations Étrangères, une spécialité uniquement accesible après la seconde.",
+          "genially": ["https://view.genial.ly/602e54f39689f70d371aa864"]
         },
         "college": null
       },
@@ -149,18 +168,20 @@
         "priority": 3,
         "lycee": null,
         "college": {
-          "genially": "https://view.genial.ly/6028f6c22ea5b30d6689c7aa"
+          "texte": "Le latin est une option disponible au collège, elle permet ainsi une meilleure compréhension des langues latines par le biais d'activités mais aussi de sorties scolaires.",
+          "genially": ["https://view.genial.ly/6028f6c22ea5b30d6689c7aa"]
         }
       },
       {
         "name": "Section Européenne",
         "priority": 3,
         "lycee": {
+          "texte": "Dans cette partie nous allons vous présenter La Section Européenne au lycée Jean Moulin Chateaulin, une section basée sur les échanges. Si vous souhaitez vous informer plus sur ce sujet, nous mettons à disposition deux documents pdf, pour y accéder, <a>cliquez ici</a> et <a>cliquez ici</a> pour la partie concernant la partie espagnole.",
           "pdf": [
             "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/offre-europeenne-2021-lycee-jean-moulin-v2.pdf",
             "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/section-europeenne-espagnol.pdf"
           ],
-          "genially": "https://view.genial.ly/602d16cebe3b3e0d63ba6da4"
+          "genially": ["https://view.genial.ly/602d16cebe3b3e0d63ba6da4"]
         },
         "college": null
       }
@@ -174,6 +195,7 @@
         "name": "Internat",
         "priority": 0,
         "lycee": {
+          "texte": "l'internat est un lieu pour héberger les élèves ne pouvant pas rentrer le soir chez eux, ainsi grâce à l'internat, ces élèves sont nourris et logés le matin et le soir.",
           "videos": ["https://www.youtube.com/embed/rYb3-ncgwqc"]
         },
         "college": null
@@ -182,6 +204,7 @@
         "name": "Théâtre",
         "priority": 2,
         "lycee": {
+          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a>cliquez ici</a>",
           "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
         },
@@ -195,6 +218,7 @@
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
         },
         "college": {
+          "texte": "Dans cette partie nous allons vous présenter l'option théâtre disponible au collège, une activité pour s'affirmer sur scène. Pour en apprendre plus vous pouvez vous référer au document mis à votre disposition, pour y accéder <a>cliquez ici</a>.",
           "videos": ["https://www.youtube.com/embed/wai-TmxZkls", "https://www.youtube.com/embed/jclH3dDrIQg"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf"]
         }
@@ -221,17 +245,17 @@
         "name": "Physique-Chimie",
         "priority": 1,
         "lycee": {
-          "genially": "https://view.genial.ly/601854eae1ff910d7ce2cb76"
+          "genially": ["https://view.genial.ly/601854eae1ff910d7ce2cb76"]
         },
         "college": {
-          "genially": "https://view.genial.ly/600eca9d4399e60db589070b"
+          "genially": ["https://view.genial.ly/600eca9d4399e60db589070b"]
         }
       },
       {
         "name": "Sciences Économiques et Sociales",
         "priority": 1,
         "lycee": {
-          "videos": ["g3igcmsfz40"]
+          "videos": ["https://www.youtube.com/embedg3igcmsfz40"]
         },
         "college": null
       },
@@ -239,7 +263,7 @@
         "name": "Sciences Numériques et Technologiques",
         "priority": 1,
         "lycee": {
-          "genially": "https://view.genial.ly/601ec3d4a14d110d147e0f1b"
+          "genially": ["https://view.genial.ly/601ec3d4a14d110d147e0f1b"]
         },
         "college": null
       },
@@ -247,7 +271,7 @@
         "name": "Numériques et Sciences Informatiques",
         "priority": 2,
         "lycee": {
-          "genially": "https://view.genial.ly/602051133668350d0014438d"
+          "genially": ["https://view.genial.ly/602051133668350d0014438d"]
         },
         "college": null
       }
@@ -272,7 +296,7 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "genially": "https://view.genial.ly/602cc9cf2767a13cce463176"
+          "genially": ["https://view.genial.ly/602cc9cf2767a13cce463176"]
         }
       },
       {
@@ -305,15 +329,15 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "videos": ["Y1Yic_erKj0"]
+          "videos": ["https://www.youtube.com/embedY1Yic_erKj0"]
         }
       },
       {
         "name": "Sciences et Technologies du Management et de la Gestion",
         "priority": 0,
         "lycee": {
-          "videos": ["ID1pT1LMfBA"],
-          "powtoon": ["fpVC8WgnHoB", "cz7B3aypKlp"]
+          "videos": ["https://www.youtube.com/embedID1pT1LMfBA"],
+          "powtoon": ["powtoon.com/embed/fpVC8WgnHoB"]
         },
         "college": null
       },
@@ -321,7 +345,7 @@
         "name": "Mathématiques",
         "priority": 1,
         "lycee": {
-          "genially": "https://view.genial.ly/601bddeeeb4c540d10a8ef94"
+          "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
         },
         "college": null
       },
@@ -329,7 +353,7 @@
         "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
         "priority": 2,
         "lycee": {
-          "videos": ["pkgbVNDgKtA"]
+          "videos": ["https://www.youtube.com/embedpkgbVNDgKtA"]
         },
         "college": null
       }
@@ -344,17 +368,17 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "videos": ["XXZ8u7AdW3s"]
+          "videos": ["https://www.youtube.com/embedXXZ8u7AdW3s"]
         }
       },
       {
         "name": "Éducation Physique et Sportive",
         "priority": 1,
         "lycee": {
-          "videos": ["xbD9ByVBxnU"]
+          "videos": ["https://www.youtube.com/embedxbD9ByVBxnU"]
         },
         "college": {
-          "videos": ["j9c1OscfRuQ"]
+          "videos": ["https://www.youtube.com/embedj9c1OscfRuQ"]
         }
       }
     ]
@@ -368,11 +392,11 @@
         "priority": 0,
         "lycee": {
           "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
-          "genially": "https://view.genial.ly/6017064064fcaa0d84f8af47"
+          "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
         },
         "college": {
           "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
-          "genially": "https://view.genial.ly/6017064064fcaa0d84f8af47"
+          "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
         }
       }
     ]

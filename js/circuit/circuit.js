@@ -81,20 +81,31 @@ class Sidebar {
             const parcours = button[button.parcours];
 
             //Ouvre la box adéquat
-            /* const documentsActu = {
-                texte:button.
-              videos: parcours?.videos,
-              animation: parcours?.powtoon ?? parcours?.genially,
-            };*/
+            const documentsActu = {
+              texte: { content: parcours.texte, type: "p" },
+              diaporama: { content: parcours?.images, type: "img" },
+              videos: { content: parcours?.videos, type: "iframe" },
+              animation: { content: parcours?.powtoon ?? parcours?.genially, type: "iframe" },
+            };
+            const elementPresents = {};
+            for (const element of Object.entries(documentsActu)) {
+              console.log(element);
+              if (element[1].content) {
+                elementPresents[element[0]] = element[1];
+              }
+            }
             console.log(parcours);
-            const currentBox = new Box("details", {
+            const currentBox = new Box(
+              "details",
+              elementPresents /* {
               texte: { content: parcours.texte, type: "p" },
               videos: {
                 content: parcours.videos,
                 type: "iframe",
               },
-              animation: { content: [parcours.powtoon ?? parcours.genially], type: "iframe" },
-            });
+              animation: { content: parcours.powtoon ?? parcours.genially, type: "iframe" },
+            }*/
+            );
 
             currentBox.mount();
             if (document.getElementById("diaporama")) diapoImg();
