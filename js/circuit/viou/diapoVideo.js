@@ -20,7 +20,7 @@ function videoIntegre() {
   pushed = document.getElementsByClassName("zmdi-videos");
   if (diapoVideo.length === 1) {
     for (const elem of pushed) {
-      elem.style.color = "grey";
+      elem.style.opacity = .6;
       elem.style.cursor = "not-allowed";
     }
   }
