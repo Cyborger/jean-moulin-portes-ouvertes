@@ -40,11 +40,11 @@
         "name": "Vie Scolaire",
         "priority": 0,
         "lycee": {
-          "texte": "La Vie Scolaire",
+          "texte": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         },
         "college": {
-          "texte": "La Vie Scolaire",
+          "texte": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         }
       },
@@ -70,6 +70,7 @@
         "name": "Histoire-Géographie",
         "priority": 1,
         "lycee": {
+          "texte": "L'histoire géographie est une matière se situant dans le tronc commun des étudiants au lycée, cela veut dire que cette matière est obligatoire pour tout le monde.",
           "videos": ["https://www.youtube.com/embed/ZH-kfo_Dw4I"]
         },
         "college": {
@@ -80,14 +81,20 @@
       {
         "name": "Sciences et Vie de la Terre",
         "priority": 1,
-        "lycee": {},
-        "college": {}
+        "lycee": {
+          "texte": "Les Sciences de la Vie et de la Terre sont obligatoires en seconde et se retrouvent toujours sous la forme d'une spécialité les années suivantes. Cependant la SVT est toujours pratiquée par tous les élèves dans le cas de l'enseignement scientifique, une matière qui combine la SVT et la physique chimie dans le tronc commun."
+        },
+        "college": {
+          "texte": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens, on y étudie différents sujets comme la géologie, l'étude du corps humain, ou encore l'étude des comportements animaliers. Tous les élèves pratiquent 2 heures de SVT chaque semaine."
+        }
       },
       {
         "name": "Technologie",
         "priority": 1,
         "lycee": null,
-        "college": {}
+        "college": {
+          "texte": "La technologie est une matière obligatoire pour tous les collégiens, elle sert d'initiation à différents sous domaine de la technologie. Ainsi les élèves apprendront à utiliser un éditeur de texte (par exemple libre office), à réaliser un organigramme pour des algorithmes simples, à faire de la modélisation 3D à l'aide d'un logiciel ou encore étudier des systèmes informatiques pour en déduire leur fonctionnement."
+        }
       }
     ]
   },
@@ -138,9 +145,11 @@
         "name": "Espagnol",
         "priority": 1,
         "lycee": {
+          "texte": "Présentation de l'espagnol au lycée, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a>cliquer ici</a>",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf"]
         },
         "college": {
+          "texte": "Présentation de l'espagnol au collège, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a>cliquer ici</a>",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf"]
         }
       },
@@ -176,7 +185,7 @@
         "name": "Section Européenne",
         "priority": 3,
         "lycee": {
-          "texte": "Dans cette partie nous allons vous présenter La Section Européenne au lycée Jean Moulin Chateaulin, une section basée sur les échanges. Si vous souhaitez vous informer plus sur ce sujet, nous mettons à disposition deux documents pdf, pour y accéder, <a>cliquez ici</a> et <a>cliquez ici</a> pour la partie concernant la partie espagnole.",
+          "texte": "Dans cette partie nous allons vous présenter La Section Européenne au lycée Jean Moulin Chateaulin, une section basée sur les échanges. Si vous souhaitez vous informer plus sur ce sujet, nous mettons à disposition deux documents pdf, pour y accéder, <a>cliquez ici</a> et <a>cliquez ici</a> pour la partie concernant l'espagnol.",
           "pdf": [
             "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/offre-europeenne-2021-lycee-jean-moulin-v2.pdf",
             "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/section-europeenne-espagnol.pdf"
@@ -214,6 +223,7 @@
         "name": "Théâtre",
         "priority": 3,
         "lycee": {
+          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a>cliquez ici</a>",
           "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
         },
@@ -233,6 +243,7 @@
         "name": "BTS Communication - Tycom",
         "priority": 0,
         "lycee": {
+          "texte": "Cette catégorie présente le nouveau BTS de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
           "videos": [
             "https://www.youtube.com/embed/siHcZeCDu94",
             "https://www.youtube.com/embed/OranGf2blgc",
@@ -245,9 +256,11 @@
         "name": "Physique-Chimie",
         "priority": 1,
         "lycee": {
+          "texte": "Presentation de la physique-chimie au lycée, les compétences enseignées et les objectifs.",
           "genially": ["https://view.genial.ly/601854eae1ff910d7ce2cb76"]
         },
         "college": {
+          "texte": "Cette catégorie présente la physique-chimie au collège, les compétences enseignées, les thèmes ainsi que les objectifs.",
           "genially": ["https://view.genial.ly/600eca9d4399e60db589070b"]
         }
       },
@@ -255,7 +268,8 @@
         "name": "Sciences Économiques et Sociales",
         "priority": 1,
         "lycee": {
-          "videos": ["https://www.youtube.com/embedg3igcmsfz40"]
+          "texte": "Cette catégorie présente les Sciences Économiques et Sociales (SES), une matière enseignée à tous en seconde puis en spécialité les années suivantes.",
+          "videos": ["https://www.youtube.com/embed/g3igcmsfz40"]
         },
         "college": null
       },
@@ -263,6 +277,7 @@
         "name": "Sciences Numériques et Technologiques",
         "priority": 1,
         "lycee": {
+          "texte": "Cette catégorie sert à présenter les Sciences Numériques et Technologiques en seconde. Cette matière sert d'initiation à l'informatique et à la programmation.",
           "genially": ["https://view.genial.ly/601ec3d4a14d110d147e0f1b"]
         },
         "college": null
@@ -271,6 +286,7 @@
         "name": "Numériques et Sciences Informatiques",
         "priority": 2,
         "lycee": {
+          "texte": "Cette catégorie présente la spécialité Numériques et Sciences Informatiques, qui est une matière éduquant les élèves à l'informatique mais aussi à d'autres catégories.",
           "genially": ["https://view.genial.ly/602051133668350d0014438d"]
         },
         "college": null
@@ -285,9 +301,11 @@
         "name": "CDI",
         "priority": 0,
         "lycee": {
+          "texte": "Le CDI ou Centre de Documentation et d'Information, est un lieu réservé à la lecture et au travail. Tous les livres présents sont rangés en plusieurs catégories distinctes, permettant de se retrouver facilement. De plus nous avons la possibilité d'enprunter des livres afin de les lire chez soi. Des ordinateurs sont également disponibles. Vous pouvez en apprendre plus en <a>cliquant ici</a>.",
           "site": "https://jeanmoulinchateaulin.com/le-cdi/"
         },
         "college": {
+          "texte": "Le CDI ou Centre de Documentation et d'Information, est un lieu réservé à la lecture et au travail. Tous les livres présents sont rangés en plusieurs catégories distinctes, permettant de se retrouver facilement. De plus nous avons la possibilité d'enprunter des livres afin de les lire chez soi. Des ordinateurs sont également disponibles. Vous pouvez en apprendre plus en <a>cliquant ici</a>.",
           "site": "https://jeanmoulinchateaulin.com/le-cdi/"
         }
       },
@@ -296,6 +314,7 @@
         "priority": 0,
         "lycee": null,
         "college": {
+          "texte": "Voici à présent une présentation du Conseil de la Vie Collégienne (CVC), un conseil qui permet d'améliorer la vie des élèves au collège.",
           "genially": ["https://view.genial.ly/602cc9cf2767a13cce463176"]
         }
       },
@@ -303,6 +322,7 @@
         "name": "CVL - Conseil de la Vie Lycéenne",
         "priority": 0,
         "lycee": {
+          "texte": "Voici à présent une présentation du Conseil de la Vie Lycéenne (CVL), un conseil qui permet d'améliorer la vie des élèves au lycée en proposant de multiples projets. Si vous souhaitez en savoir plus vous pouvez accéder au document mis à votre disposition en <a>cliquant ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/actions-cvl-diaporama.pdf"]
         },
         "college": null
@@ -311,16 +331,21 @@
         "name": "Projets",
         "priority": 0,
         "lycee": {
+          "texte": "Cette partie est consacrée aux projets du lycée Jean Moulin Chateaulin, pour en savoir plus vous pouvez vous référer au document en <a>cliquant ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf"]
         },
         "college": {
+          "texte": "Cette partie est consacrée aux projets du collège Jean Moulin Chateaulin, pour en savoir plus vous pouvez vous référer au document en <a>cliquant ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf"]
         }
       },
       {
         "name": "Web Radio",
         "priority": 0,
-        "commun": {
+        "lycee": {
+          "texte": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
+        },
+        "college": {
           "texte": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
         }
       },
@@ -329,15 +354,17 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "videos": ["https://www.youtube.com/embedY1Yic_erKj0"]
+          "texte": "Cette catégorie sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
+          "videos": ["https://www.youtube.com/embed/Y1Yic_erKj0"]
         }
       },
       {
         "name": "Sciences et Technologies du Management et de la Gestion",
         "priority": 0,
         "lycee": {
-          "videos": ["https://www.youtube.com/embedID1pT1LMfBA"],
-          "powtoon": ["powtoon.com/embed/fpVC8WgnHoB"]
+          "texte": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
+          "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
+          "powtoon": ["https://www.powtoon.com/embed/fpVC8WgnHoB/"]
         },
         "college": null
       },
@@ -345,6 +372,7 @@
         "name": "Mathématiques",
         "priority": 1,
         "lycee": {
+          "texte": "Les Mathématiques sont obligatoires en seconde cependant, à partir de la première, cette matière se transforme en spécialité. Cette catégorie servira à vous présenter l'aspect global des mathématiques au lycée.",
           "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
         },
         "college": null
@@ -353,7 +381,8 @@
         "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
         "priority": 2,
         "lycee": {
-          "videos": ["https://www.youtube.com/embedpkgbVNDgKtA"]
+          "texte": "l'Histoire-Géographie, Géopolitique et Sciences Politique est une spécialité de première et terminale, Cette catégorie servira à présenter la matière en question.",
+          "videos": ["https://www.youtube.com/embed/pkgbVNDgKtA"]
         },
         "college": null
       }
@@ -368,17 +397,20 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "videos": ["https://www.youtube.com/embedXXZ8u7AdW3s"]
+          "texte": "Au cours de l'année, des voyages en EPS peuvent être réalisés (exemple: voyage au ski), cette catégorie servira à vous présenter les différents voyages qui ont étés réalisés en rapport à l'éducation physique et sportive.",
+          "videos": ["https://www.youtube.com/embed/XXZ8u7AdW3s"]
         }
       },
       {
         "name": "Éducation Physique et Sportive",
         "priority": 1,
         "lycee": {
-          "videos": ["https://www.youtube.com/embedxbD9ByVBxnU"]
+          "texte": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "videos": ["https://www.youtube.com/embed/xbD9ByVBxnU"]
         },
         "college": {
-          "videos": ["https://www.youtube.com/embedj9c1OscfRuQ"]
+          "texte": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "videos": ["https://www.youtube.com/embed/j9c1OscfRuQ"]
         }
       }
     ]
@@ -391,10 +423,12 @@
         "name": "Organisation du self",
         "priority": 0,
         "lycee": {
+          "texte": "Le self est un lieu essentiel de l'établissement scolaire Jean Moulin Chateaulin, pour vous informer plus sur le self en général, vous pouvez <a>cliquer ici</a>.",
           "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
           "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
         },
         "college": {
+          "texte": "Le self est un lieu essentiel de l'établissement scolaire Jean Moulin Chateaulin, pour vous informer plus sur le self en général, vous pouvez <a>cliquer ici</a>.",
           "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
           "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
         }
