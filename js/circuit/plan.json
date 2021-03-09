@@ -1,438 +1,438 @@
 [
-    {
-        "id": "C",
-        "description": "Le bâtiment C concentre la majorité des cours des collégiens et dispose notamment de la vie scolaire et de l'intendance à son entrée puis des laboratoires SVT.",
-        "matieres": [
-            {
-                "name": "Secrétariat & Intendance",
-                "priority": 0,
-                "commun": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/linscription-en-6e-deroulement-et-calendrier-2021.pdf"
-                    ],
-                    "canva": "DAEVLsqQWgA/yjjDL44pKsran_u3EywfZA"
-                }
-            },
-            {
-                "name": "ULIS",
-                "priority": 0,
-                "lycee": null,
-                "college": {
-                    "texte": "Projet Micro-climat : Depuis maintenant deux ans, les élèves de l’ULIS, de Toul ar c’hoat et de l’école Marie Curie se sont lancés dans un projet radio sur les climats, projet intitulé « Micro-climat ». Les élèves ont observé le climat et ses changements dans le monde. Ils ont réalisé des reportages sur les villes et leurs climats. Ils ont conçu une carte sur laquelle on peut découvrir ces reportages : umap.openstreetmap.fr/fr/map/projet-micro-climat-radio-evasion-atlas-sonore-des_424865Projet Mythologie :Les élèves d’ULIS et de 6ème ont réalisé un projet sur la mythologie. Ils ont réécrit des contes mythologiques avec l’idée de les transposer à l’époque actuelle. Puis ils ont enregistré ces contes à la radio.Voici le lien :soundcloud.com/user-259373327/sets/2018-les-metamorphoses-laLe potager ( photos en pièces jointes) :\nLes élèves de l'ULIS ont réalisé un potager à côté du self. Les élèves ont dans un premier temps construit six carrés en bois de 1.20m x 1.20m. Par la suite des semis ont été réalisés dans les serres du LEGTA, le lycée horticole de Châteaulin. En avril les semis réalisés ont été mis en terre et très vite des salades, des betteraves, oignons, potirons, courges, plantes arômatiques et courgettes ont poussé. Régulièrement, les élèves réalisent des paniers de légumes et de plantes aromatiques. Ils apportent au self les légumes où le chef et son équipe se font un plaisir de les cuisiner.\nLe projet avec le Run ar Puns (photo en pièces jointes) :Cette année les élèves de l'ULIS participent à un projet avec le Run ar Puns. Gabriel de Villeneuve, auteur-compositeur-interprète du groupe \"La Goutte\" intervient auprès des élèves pour les aider à écrire des chansons. Chansons que Gabriel met en musique et qui seront par la suite enregistrées par les élèves au studio d'enregistrement du Germoir à Châteaulin. N'hésitez pas à donner mon adresse mail aux familles ewan.guillou@ac-rennes.fr"
-                }
-            },
-            {
-                "name": "Vie Scolaire",
-                "priority": 0,
-                "lycee": {
-                    "videos": [
-                        "CedodJ_ZrNY"
-                    ]
-                },
-                "college": {
-                    "videos": [
-                        "CedodJ_ZrNY"
-                    ]
-                }
-            },
-            {
-                "name": "Mathématiques",
-                "priority": 1,
-                "lycee": null,
-                "college": {
-                    "videos": [
-                        "_SWYMHrRJdg"
-                    ]
-                }
-            },
-            {
-                "name": "Français",
-                "priority": 1,
-                "lycee": null,
-                "college": {
-                    "genially": "60264957d4fb4a0d20690ae6"
-                }
-            },
-            {
-                "name": "Histoire-Géographie",
-                "priority": 1,
-                "lycee": {
-                    "videos": [
-                        "ZH-kfo_Dw4I"
-                    ]
-                },
-                "college": {
-                    "genially": "601990bc4fff9e0d8699aa8f"
-                }
-            },
-            {
-                "name": "Sciences et Vie de la Terre",
-                "priority": 1,
-                "lycee": {},
-                "college": {}
-            },
-            {
-                "name": "Technologie",
-                "priority": 1,
-                "lycee": null,
-                "college": {}
-            }
-        ]
-    },
-    {
-        "id": "B",
-        "description": "Le bâtiment B représente l'intersection entre la cour collège et la cour lycée de par sa passerelle en son entrée. Celui-ci regroupe notamment les matières liées aux langues.",
-        "matieres": [
-            {
-                "name": "Allemand",
-                "priority": 1,
-                "lycee": {
-                    "powtoon": [
-                        "efStEhlnSXl"
-                    ]
-                },
-                "college": {
-                    "powtoon": [
-                        "fn3VJ8Jwua4"
-                    ]
-                }
-            },
-            {
-                "name": "Anglais",
-                "priority": 1,
-                "lycee": null,
-                "college": {
-                    "genially": "6016c75e1bd3060d78c63b87"
-                }
-            },
-            {
-                "name": "Art Plastique",
-                "priority": 1,
-                "lycee": null,
-                "college": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf"
-                    ]
-                }
-            },
-            {
-                "name": "Éducation Musicale",
-                "priority": 1,
-                "lycee": null,
-                "college": {
-                    "videos": [
-                        "oe_WY9FRDFc",
-                        "JEBclH5viCg"
-                    ]
-                }
-            },
-            {
-                "name": "Espagnol",
-                "priority": 1,
-                "lycee": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf"
-                    ]
-                },
-                "college": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf"
-                    ]
-                }
-            },
-            {
-                "name": "Humanités, Littérature et Philosophie",
-                "priority": 2,
-                "lycee": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf"
-                    ],
-                    "videos": [
-                        "yVnp1w852SA",
-                        "AueBjanSZLU"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Langues, Littératures et Civilisations Étrangères",
-                "priority": 2,
-                "lycee": {
-                    "genially": "602e54f39689f70d371aa864"
-                },
-                "college": null
-            },
-            {
-                "name": "Latin",
-                "priority": 3,
-                "lycee": null,
-                "college": {
-                    "genially": "6028f6c22ea5b30d6689c7aa"
-                }
-            },
-            {
-                "name": "Section Européenne",
-                "priority": 3,
-                "lycee": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/offre-europeenne-2021-lycee-jean-moulin-v2.pdf",
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/section-europeenne-espagnol.pdf"
-                    ],
-                    "genially": "602d16cebe3b3e0d63ba6da4"
-                },
-                "college": null
-            }
-        ]
-    },
-    {
-        "id": "D",
-        "description": "Le bâtiment D est, quant à lui, marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
-        "matieres": [
-            {
-                "name": "Internat",
-                "priority": 0,
-                "lycee": {
-                    "videos": [
-                        "rYb3-ncgwqc"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Théâtre",
-                "priority": 2,
-                "lycee": {
-                    "videos": [
-                        "KX8tJMBGB2w",
-                        "tZqE879odpM"
-                    ],
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Théâtre",
-                "priority": 3,
-                "lycee": {
-                    "videos": [
-                        "KX8tJMBGB2w",
-                        "tZqE879odpM"
-                    ],
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"
-                    ]
-                },
-                "college": {
-                    "videos": [
-                        "wai-TmxZkls",
-                        "jclH3dDrIQg"
-                    ],
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "E",
-        "description": "Le bâtiment E est notamment marqué pour son orientation scientifique avec de nombreuses salles de Travaux Pratiques et salles informatique.",
-        "matieres": [
-            {
-                "name": "BTS Communication - Tycom",
-                "priority": 0,
-                "lycee": {
-                    "videos": [
-                        "siHcZeCDu94",
-                        "OranGf2blgc",
-                        "6RI896NuX2k"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Physique-Chimie",
-                "priority": 1,
-                "lycee": {
-                    "genially": "601854eae1ff910d7ce2cb76"
-                },
-                "college": {
-                    "genially": "600eca9d4399e60db589070b"
-                }
-            },
-            {
-                "name": "Sciences Économiques et Sociales",
-                "priority": 1,
-                "lycee": {
-                    "videos": [
-                        "g3igcmsfz40"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Sciences Numériques et Technologiques",
-                "priority": 1,
-                "lycee": {
-                    "genially": "601ec3d4a14d110d147e0f1b"
-                },
-                "college": null
-            },
-            {
-                "name": "Numériques et Sciences Informatiques",
-                "priority": 2,
-                "lycee": {
-                    "genially": "602051133668350d0014438d"
-                },
-                "college": null
-            }
-        ]
-    },
-    {
-        "id": "G",
-        "description": "Le bâtiment G regroupe de nombreuses matières pour les lycéens avec la classe de Sciences et Technologies du Management et de la Gestion, une salle informatique, le tout à proximité du Centre de Documentation et d'Information (CDI) de l'établissement.",
-        "matieres": [
-            {
-                "name": "CDI",
-                "priority": 0,
-                "lycee": {
-                    "site": "https://jeanmoulinchateaulin.com/le-cdi/"
-                },
-                "college": {
-                    "site": "https://jeanmoulinchateaulin.com/le-cdi/"
-                }
-            },
-            {
-                "name": "CVC - Conseil de la Vie Collégienne",
-                "priority": 0,
-                "lycee": null,
-                "college": {
-                    "genially": "602cc9cf2767a13cce463176"
-                }
-            },
-            {
-                "name": "CVL - Conseil de la Vie Lycéenne",
-                "priority": 0,
-                "lycee": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/actions-cvl-diaporama.pdf"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Projets",
-                "priority": 0,
-                "lycee": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf"
-                    ]
-                },
-                "college": {
-                    "pdf": [
-                        "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf"
-                    ]
-                }
-            },
-            {
-                "name": "Web Radio",
-                "priority": 0,
-                "commun": {
-                    "texte": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
-                }
-            },
-            {
-                "name": "Secourisme",
-                "priority": 0,
-                "lycee": null,
-                "college": {
-                    "videos": [
-                        "Y1Yic_erKj0"
-                    ]
-                }
-            },
-            {
-                "name": "Sciences et Technologies du Management et de la Gestion",
-                "priority": 0,
-                "lycee": {
-                    "videos": [
-                        "ID1pT1LMfBA"
-                    ],
-                    "powtoon": [
-                        "fpVC8WgnHoB",
-                        "cz7B3aypKlp"
-                    ]
-                },
-                "college": null
-            },
-            {
-                "name": "Mathématiques",
-                "priority": 1,
-                "lycee": {
-                    "genially": "601bddeeeb4c540d10a8ef94"
-                },
-                "college": null
-            },
-            {
-                "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
-                "priority": 2,
-                "lycee": {
-                    "videos": [
-                        "pkgbVNDgKtA"
-                    ]
-                },
-                "college": null
-            }
-        ]
-    },
-    {
-        "id": "EPS",
-        "description": "L'établissement propose ses cours d'Éducation Physique et Sportive dans le gymnase Hervé Mao, dans un espace extérieur large, et dans un terrain de tennis couvert. Les activités sont diverses et l'établissement propose une classe de ski pour les cinquièmes.",
-        "matieres": [
-            {
-                "name": "Voyages en EPS",
-                "priority": 0,
-                "lycee": null,
-                "college": {
-                    "videos": [
-                        "XXZ8u7AdW3s"
-                    ]
-                }
-            },
-            {
-                "name": "Éducation Physique et Sportive",
-                "priority": 1,
-                "lycee": {
-                    "videos": [
-                        "xbD9ByVBxnU"
-                    ]
-                },
-                "college": {
-                    "videos": [
-                        "j9c1OscfRuQ"
-                    ]
-                }
-            }
-        ]
-    },
-    {
-        "id": "Self",
-        "description": "Le Self permet de nourrir les élèves de l'établissement chaque midi et les lycéens de l'internat les matins et les soirs.",
-        "matieres": [
-            {
-                "name": "Organisation du self",
-                "priority": 0,
-                "lycee": {
-                    "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
-                    "genially": "6017064064fcaa0d84f8af47"
-                },
-                "college": {
-                    "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
-                    "genially": "6017064064fcaa0d84f8af47"
-                }
-            }
-        ]
-    }
+  {
+    "id": "C",
+    "description": "Le bâtiment C concentre la majorité des cours des collégiens et dispose notamment de la vie scolaire et de l'intendance à son entrée puis des laboratoires SVT.",
+    "matieres": [
+      {
+        "name": "Mots de la direction",
+        "priority": 0,
+        "lycee": {
+          "texte": "Voici les mots de la direction, dans cette section, la proviseure de l'établissement vous présentera les débuts dans la classe de seconde au lycée Jean Moulin Chateaulin ainsi que ce qui arrivera après la seconde.",
+          "videos": ["https://www.youtube.com/embed/KvxhWoSN-vg"]
+        },
+        "college": null
+      },
+      {
+        "name": "Secrétariat & Intendance",
+        "priority": 0,
+        "college": {
+          "texte": "Voici un document du Secrétariat et de l'intendance sur l'inscription en 6e au collège Jean Moulin.<br/><a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/linscription-en-6e-deroulement-et-calendrier-2021.pdf\">cliquez ici pour y accéder</a>"
+        },
+        "lycee": {
+          "texte": "Voici une petite illustration concernant les services administratifs du lycée Jean Moulin.<br/><a href=\"https://www.canva.com/design/DAEVLsqQWgA/yjjDL44pKsran_u3EywfZA/view\">cliquez ici pour y accéder</a>"
+        },
+        "commun": {
+          "pdf": [
+            "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/linscription-en-6e-deroulement-et-calendrier-2021.pdf"
+          ],
+          "canva": "DAEVLsqQWgA/yjjDL44pKsran_u3EywfZA"
+        }
+      },
+      {
+        "name": "ULIS",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "texte": "<br/><br/><br/><br/><br/><br/>Projet Micro-climat : Depuis maintenant deux ans, les élèves de l’ULIS, de Toul ar c’hoat et de l’école Marie Curie se sont lancés dans un projet radio sur les climats, un projet intitulé « Micro-climat ».<br/> Les élèves ont observé le climat et ses changements dans le monde. Ils ont réalisé des reportages sur les villes et leurs climats. Ils ont conçu une carte sur laquelle on peut découvrir ces reportages : <br/><a>umap.openstreetmap.fr/fr/map/projet-micro-climat-radio-evasion-atlas-sonore-des_424865</a><br/><br/>Projet Mythologie<br/> Les élèves d’ULIS et de 6ème ont réalisé un projet sur la mythologie. Ils ont réécrit des contes mythologiques avec l’idée de les transposer à l’époque actuelle. Puis ils ont enregistré ces contes à la radio.<br/>Voici le lien :<br/><a>soundcloud.com/user-259373327/sets/2018-les-metamorphoses-la</a><br/><br/>Le potager:<br/>Les élèves de l'ULIS ont réalisé un potager à côté du self. Les élèves ont dans un premier temps construit six carrés en bois de 1.20m x 1.20m. Par la suite des semis ont été réalisés dans les serres du LEGTA, le lycée horticole de Châteaulin. En avril les semis réalisés ont été mis en terre et très vite des salades, des betteraves, oignons, potirons, courges, plantes arômatiques et courgettes ont poussé.<br/> Régulièrement, les élèves réalisent des paniers de légumes et de plantes aromatiques. Ils apportent au self les légumes où le chef et son équipe se font un plaisir de les cuisiner.<br/><br/>Le projet avec le Run ar Puns:<br/> Cette année les élèves de l'ULIS participent à un projet avec le Run ar Puns. Gabriel de Villeneuve, auteur-compositeur-interprète du groupe \"La Goutte\" intervient auprès des élèves pour les aider à écrire des chansons. Chansons que Gabriel met en musique et qui seront par la suite enregistrées par les élèves au studio d'enregistrement du Germoir à Châteaulin.<br/> N'hésitez pas à donner mon adresse mail aux familles ewan.guillou@ac-rennes.fr"
+        }
+      },
+      {
+        "name": "Vie Scolaire",
+        "priority": 0,
+        "lycee": {
+          "texte": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
+          "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
+        },
+        "college": {
+          "texte": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
+          "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
+        }
+      },
+      {
+        "name": "Mathématiques",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "Sur cette Section, nous vous présenterons une petite vidéo-capsule sur les mathématiques au collège, leur fonctionnement et l'accompagnement proposé.",
+          "videos": ["https://www.youtube.com/embed/_SWYMHrRJdg"]
+        }
+      },
+      {
+        "name": "Français",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "Sur cette catégorie, nous vous présenterons le français au collège, un matière essentielle à tous les élèves.",
+          "genially": ["https://view.genial.ly/60264957d4fb4a0d20690ae6"]
+        }
+      },
+      {
+        "name": "Histoire-Géographie",
+        "priority": 1,
+        "lycee": {
+          "texte": "L'histoire géographie est une matière se situant dans le tronc commun des étudiants au lycée, cela veut dire que cette matière est obligatoire pour tout le monde.",
+          "videos": ["https://www.youtube.com/embed/ZH-kfo_Dw4I"]
+        },
+        "college": {
+          "texte": "Sur cette catégorie, vous allez être guidé sur une animation pour vous présenter l'histoire et la géographie au collège.",
+          "genially": ["https://view.genial.ly/601990bc4fff9e0d8699aa8f"]
+        }
+      },
+      {
+        "name": "Sciences et Vie de la Terre",
+        "priority": 1,
+        "lycee": {
+          "texte": "Les Sciences de la Vie et de la Terre sont obligatoires en seconde et se retrouvent toujours sous la forme d'une spécialité les années suivantes. Cependant la SVT est toujours pratiquée par tous les élèves dans le cas de l'enseignement scientifique, une matière qui combine la SVT et la physique chimie dans le tronc commun."
+        },
+        "college": {
+          "texte": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens, on y étudie différents sujets comme la géologie, l'étude du corps humain, ou encore l'étude des comportements animaliers. Tous les élèves pratiquent 2 heures de SVT chaque semaine."
+        }
+      },
+      {
+        "name": "Technologie",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "La technologie est une matière obligatoire pour tous les collégiens, elle sert d'initiation à différents sous domaine de la technologie. Ainsi les élèves apprendront à utiliser un éditeur de texte (par exemple libre office), à réaliser un organigramme pour des algorithmes simples, à faire de la modélisation 3D à l'aide d'un logiciel ou encore étudier des systèmes informatiques pour en déduire leur fonctionnement."
+        }
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "description": "Le bâtiment B représente l'intersection entre la cour collège et la cour lycée de par sa passerelle en son entrée. Celui-ci regroupe notamment les matières liées aux langues.",
+    "matieres": [
+      {
+        "name": "Allemand",
+        "priority": 1,
+        "lycee": {
+          "texte": "Présentation de l'Allemand au lycée, une langue vivante pratiquée 2 heures par semaine.",
+          "powtoon": ["https://www.powtoon.com/embed/efStEhlnSXl"]
+        },
+        "college": {
+          "texte": "Présentation de l'Allemand au collège, Une des langues vivantes présentes au collège Jean Moulin Chateaulin.",
+          "powtoon": ["https://www.powtoon.com/embed/fn3VJ8Jwua4"]
+        }
+      },
+      {
+        "name": "Anglais",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "Présentation de l'Anglais au collège, une langue obligatoire dans le cursus scolaire avec 4 heures de cours par semaine.",
+          "genially": ["https://view.genial.ly/6016c75e1bd3060d78c63b87"]
+        }
+      },
+      {
+        "name": "Art Plastique",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "L'Art plastique est une matière exclusive au collège, voici un document pour découvrir ce qu'on y fait.<br/>pour y accéder <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf\">cliquez ici</a>.",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf"]
+        }
+      },
+      {
+        "name": "Éducation Musicale",
+        "priority": 1,
+        "lycee": null,
+        "college": {
+          "texte": "L'éductation musicale est une matière exclusive au collège, Sur cette partie vous verrez deux petites vidéos pour découvrir les activités réalisées.",
+          "videos": ["https://www.youtube.com/embed/oe_WY9FRDFc", "https://www.youtube.com/embed/JEBclH5viCg"]
+        }
+      },
+      {
+        "name": "Espagnol",
+        "priority": 1,
+        "lycee": {
+          "texte": "Présentation de l'espagnol au lycée, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf\">cliquer ici</a>",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf"]
+        },
+        "college": {
+          "texte": "Présentation de l'espagnol au collège, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf\">cliquer ici</a>",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf"]
+        }
+      },
+      {
+        "name": "Humanités, Littérature et Philosophie",
+        "priority": 2,
+        "lycee": {
+          "texte": "Dans cette catégorie nous vous présenterons la spécialité Humanités, Littérature et Philosophie, une spécialité accesible après la seconde.<br/> un document pdf est mis à votre disposition pour vous informer sur cette spécialité, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf\">cliquez ici</a>.",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf"],
+          "videos": ["https://www.youtube.com/embed/yVnp1w852SA", "https://www.youtube.com/embed/AueBjanSZLU"]
+        },
+        "college": null
+      },
+      {
+        "name": "Langues, Littératures et Civilisations Étrangères",
+        "priority": 2,
+        "lycee": {
+          "texte": "Dans cette catégorie nous allons vous présenter la spécialité Langues, Littératures et Civilisations Étrangères, une spécialité uniquement accesible après la seconde.",
+          "genially": ["https://view.genial.ly/602e54f39689f70d371aa864"]
+        },
+        "college": null
+      },
+      {
+        "name": "Latin",
+        "priority": 3,
+        "lycee": null,
+        "college": {
+          "texte": "Le latin est une option disponible au collège, elle permet ainsi une meilleure compréhension des langues latines par le biais d'activités mais aussi de sorties scolaires.",
+          "genially": ["https://view.genial.ly/6028f6c22ea5b30d6689c7aa"]
+        }
+      },
+      {
+        "name": "Section Européenne",
+        "priority": 3,
+        "lycee": {
+          "texte": "Dans cette partie nous allons vous présenter La Section Européenne au lycée Jean Moulin Chateaulin, une section basée sur les échanges. Si vous souhaitez vous informer plus sur ce sujet, nous mettons à disposition deux documents pdf, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/offre-europeenne-2021-lycee-jean-moulin-v2.pdf\">cliquez ici</a> et <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/section-europeenne-espagnol.pdf\">cliquez ici</a> pour la partie concernant l'espagnol.",
+          "pdf": [
+            "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/offre-europeenne-2021-lycee-jean-moulin-v2.pdf",
+            "https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/section-europeenne-espagnol.pdf"
+          ],
+          "genially": ["https://view.genial.ly/602d16cebe3b3e0d63ba6da4"]
+        },
+        "college": null
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "description": "Le bâtiment D est, quant à lui, marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
+    "matieres": [
+      {
+        "name": "Internat",
+        "priority": 0,
+        "lycee": {
+          "texte": "l'internat est un lieu pour héberger les élèves ne pouvant pas rentrer le soir chez eux, ainsi grâce à l'internat, ces élèves sont nourris et logés le matin et le soir.",
+          "videos": ["https://www.youtube.com/embed/rYb3-ncgwqc"]
+        },
+        "college": null
+      },
+      {
+        "name": "Théâtre",
+        "priority": 2,
+        "lycee": {
+          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
+          "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
+        },
+        "college": null
+      },
+      {
+        "name": "Théâtre",
+        "priority": 3,
+        "lycee": {
+          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
+          "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
+        },
+        "college": {
+          "texte": "Dans cette partie nous allons vous présenter l'option théâtre disponible au collège, une activité pour s'affirmer sur scène. Pour en apprendre plus vous pouvez vous référer au document mis à votre disposition, pour y accéder <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf\">cliquez ici</a>.",
+          "videos": ["https://www.youtube.com/embed/wai-TmxZkls", "https://www.youtube.com/embed/jclH3dDrIQg"],
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "description": "Le bâtiment E est notamment marqué pour son orientation scientifique avec de nombreuses salles de Travaux Pratiques et salles informatique.",
+    "matieres": [
+      {
+        "name": "BTS Communication - Tycom",
+        "priority": 0,
+        "lycee": {
+          "texte": "Cette catégorie présente le nouveau BTS de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
+          "videos": [
+            "https://www.youtube.com/embed/siHcZeCDu94",
+            "https://www.youtube.com/embed/OranGf2blgc",
+            "https://www.youtube.com/embed/6RI896NuX2k"
+          ]
+        },
+        "college": null
+      },
+      {
+        "name": "Physique-Chimie",
+        "priority": 1,
+        "lycee": {
+          "texte": "Presentation de la physique-chimie au lycée, les compétences enseignées et les objectifs.",
+          "genially": ["https://view.genial.ly/601854eae1ff910d7ce2cb76"]
+        },
+        "college": {
+          "texte": "Cette catégorie présente la physique-chimie au collège, les compétences enseignées, les thèmes ainsi que les objectifs.",
+          "genially": ["https://view.genial.ly/600eca9d4399e60db589070b"]
+        }
+      },
+      {
+        "name": "Sciences Économiques et Sociales",
+        "priority": 1,
+        "lycee": {
+          "texte": "Cette catégorie présente les Sciences Économiques et Sociales (SES), une matière enseignée à tous en seconde puis en spécialité les années suivantes.",
+          "videos": ["https://www.youtube.com/embed/g3igcmsfz40"]
+        },
+        "college": null
+      },
+      {
+        "name": "Sciences Numériques et Technologiques",
+        "priority": 1,
+        "lycee": {
+          "texte": "Cette catégorie sert à présenter les Sciences Numériques et Technologiques en seconde. Cette matière sert d'initiation à l'informatique et à la programmation.",
+          "genially": ["https://view.genial.ly/601ec3d4a14d110d147e0f1b"]
+        },
+        "college": null
+      },
+      {
+        "name": "Numériques et Sciences Informatiques",
+        "priority": 2,
+        "lycee": {
+          "texte": "Cette catégorie présente la spécialité Numériques et Sciences Informatiques, qui est une matière éduquant les élèves à l'informatique mais aussi à d'autres catégories.",
+          "genially": ["https://view.genial.ly/602051133668350d0014438d"]
+        },
+        "college": null
+      }
+    ]
+  },
+  {
+    "id": "G",
+    "description": "Le bâtiment G regroupe de nombreuses matières pour les lycéens avec la classe de Sciences et Technologies du Management et de la Gestion, une salle informatique, le tout à proximité du Centre de Documentation et d'Information (CDI) de l'établissement.",
+    "matieres": [
+      {
+        "name": "CDI",
+        "priority": 0,
+        "lycee": {
+          "texte": "Le CDI ou Centre de Documentation et d'Information, est un lieu réservé à la lecture et au travail. Tous les livres présents sont rangés en plusieurs catégories distinctes, permettant de se retrouver facilement. De plus nous avons la possibilité d'enprunter des livres afin de les lire chez soi. Des ordinateurs sont également disponibles. Vous pouvez en apprendre plus en <a href=\"https://jeanmoulinchateaulin.com/le-cdi/\">cliquant ici</a>.",
+          "site": "https://jeanmoulinchateaulin.com/le-cdi/"
+        },
+        "college": {
+          "texte": "Le CDI ou Centre de Documentation et d'Information, est un lieu réservé à la lecture et au travail. Tous les livres présents sont rangés en plusieurs catégories distinctes, permettant de se retrouver facilement. De plus nous avons la possibilité d'enprunter des livres afin de les lire chez soi. Des ordinateurs sont également disponibles. Vous pouvez en apprendre plus en <a=\"https://jeanmoulinchateaulin.com/le-cdi/\">cliquant ici</a>.",
+          "site": "https://jeanmoulinchateaulin.com/le-cdi/"
+        }
+      },
+      {
+        "name": "CVC - Conseil de la Vie Collégienne",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "texte": "Voici à présent une présentation du Conseil de la Vie Collégienne (CVC), un conseil qui permet d'améliorer la vie des élèves au collège.",
+          "genially": ["https://view.genial.ly/602cc9cf2767a13cce463176"]
+        }
+      },
+      {
+        "name": "CVL - Conseil de la Vie Lycéenne",
+        "priority": 0,
+        "lycee": {
+          "texte": "Voici à présent une présentation du Conseil de la Vie Lycéenne (CVL), un conseil qui permet d'améliorer la vie des élèves au lycée en proposant de multiples projets. Si vous souhaitez en savoir plus vous pouvez accéder au document mis à votre disposition en <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/actions-cvl-diaporama.pdf\">cliquant ici</a>.",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/actions-cvl-diaporama.pdf"]
+        },
+        "college": null
+      },
+      {
+        "name": "Projets",
+        "priority": 0,
+        "lycee": {
+          "texte": "Cette partie est consacrée aux projets du lycée Jean Moulin Chateaulin, pour en savoir plus vous pouvez vous référer au document en <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf\">cliquant ici</a>.",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf"]
+        },
+        "college": {
+          "texte": "Cette partie est consacrée aux projets du collège Jean Moulin Chateaulin, pour en savoir plus vous pouvez vous référer au document en <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf\">cliquant ici</a>.",
+          "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf"]
+        }
+      },
+      {
+        "name": "Web Radio",
+        "priority": 0,
+        "lycee": {
+          "texte": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
+        },
+        "college": {
+          "texte": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
+        }
+      },
+      {
+        "name": "Secourisme",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "texte": "Cette catégorie sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
+          "videos": ["https://www.youtube.com/embed/Y1Yic_erKj0"]
+        }
+      },
+      {
+        "name": "Sciences et Technologies du Management et de la Gestion",
+        "priority": 0,
+        "lycee": {
+          "texte": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
+          "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
+          "powtoon": ["https://www.powtoon.com/embed/fpVC8WgnHoB/"]
+        },
+        "college": null
+      },
+      {
+        "name": "Mathématiques",
+        "priority": 1,
+        "lycee": {
+          "texte": "Les Mathématiques sont obligatoires en seconde cependant, à partir de la première, cette matière se transforme en spécialité. Cette catégorie servira à vous présenter l'aspect global des mathématiques au lycée.",
+          "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
+        },
+        "college": null
+      },
+      {
+        "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
+        "priority": 2,
+        "lycee": {
+          "texte": "l'Histoire-Géographie, Géopolitique et Sciences Politique est une spécialité de première et terminale, Cette catégorie servira à présenter la matière en question.",
+          "videos": ["https://www.youtube.com/embed/pkgbVNDgKtA"]
+        },
+        "college": null
+      }
+    ]
+  },
+  {
+    "id": "EPS",
+    "description": "L'établissement propose ses cours d'Éducation Physique et Sportive dans le gymnase Hervé Mao, dans un espace extérieur large, et dans un terrain de tennis couvert. Les activités sont diverses et l'établissement propose une classe de ski pour les cinquièmes.",
+    "matieres": [
+      {
+        "name": "Voyages en EPS",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "texte": "Au cours de l'année, des voyages en EPS peuvent être réalisés (exemple: voyage au ski), cette catégorie servira à vous présenter les différents voyages qui ont étés réalisés en rapport à l'éducation physique et sportive.",
+          "videos": ["https://www.youtube.com/embed/XXZ8u7AdW3s"]
+        }
+      },
+      {
+        "name": "Éducation Physique et Sportive",
+        "priority": 1,
+        "lycee": {
+          "texte": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "videos": ["https://www.youtube.com/embed/xbD9ByVBxnU"]
+        },
+        "college": {
+          "texte": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "videos": ["https://www.youtube.com/embed/j9c1OscfRuQ"]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Self",
+    "description": "Le Self permet de nourrir les élèves de l'établissement chaque midi et les lycéens de l'internat les matins et les soirs.",
+    "matieres": [
+      {
+        "name": "Organisation du self",
+        "priority": 0,
+        "lycee": {
+          "texte": "Le self est un lieu essentiel de l'établissement scolaire Jean Moulin Chateaulin, pour vous informer plus sur le self en général, vous pouvez <a href=\"https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/\">cliquer ici</a>.",
+          "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
+          "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
+        },
+        "college": {
+          "texte": "Le self est un lieu essentiel de l'établissement scolaire Jean Moulin Chateaulin, pour vous informer plus sur le self en général, vous pouvez <a href=\"https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/\">cliquer ici</a>.",
+          "site": "https://jeanmoulinchateaulin.com/gestion-comptable/college-jean-moulin-2/college-jean-moulin/",
+          "genially": ["https://view.genial.ly/6017064064fcaa0d84f8af47"]
+        }
+      }
+    ]
+  }
 ]
