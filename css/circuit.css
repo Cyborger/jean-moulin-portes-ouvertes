@@ -37,7 +37,7 @@ a {
 svg {
   transform-origin: 0% 20%;
   width: 100%;
-  height: 100%;
+  height: 115vh;
   transition: transform 1s ease;
   transform: translateY(-15vh);
 }
