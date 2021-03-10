@@ -38,6 +38,8 @@ class Sidebar {
     this.opened = false;
 
     this.buttons = [
+      { name: "Post-BAC", buttons: [] },
+      { name: "Filière Technologique", buttons: [] },
       { name: "Points d'Intérêt", buttons: [] },
       { name: "Matières Communes", buttons: [] },
       { name: "Spécialités", buttons: [] },
@@ -134,7 +136,7 @@ class Sidebar {
   }
 
   addButton(button) {
-    this.buttons[button.priority].buttons.push(button);
+    this.buttons[button.priority + 2].buttons.push(button); // +2 afin de pouvoir implémenter les priorités négatives pour la filière techno et post-BAC
   }
 
   set title(value) {
