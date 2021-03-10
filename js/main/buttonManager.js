@@ -8,6 +8,16 @@ starter.addEventListener("click", e => {
   container.style.display = "flex";
   backButton.style.display = "block";
   e.target.parentNode.style.display = "none";
+
+  // Google Analytics
+  gtag("get", "G-F27MFR8WG0", "hasConsent", (target) => {
+    if (!target) {
+      gtag("consent", "update", {
+        analytics_storage: "granted",
+      });
+      gtag("set", {hasConsent: true});
+    }
+  });
 });
 
 backButton.addEventListener("click", e => {
@@ -34,3 +44,6 @@ document
   .addEventListener("click", () => {
     window.location.redirect("/circuit.html?parcours=college");
   });
+
+
+document.querySelector("#dateActuelle").innerHTML = new Date().getFullYear();
