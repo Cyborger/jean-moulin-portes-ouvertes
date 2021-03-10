@@ -4,15 +4,6 @@
     "description": "Le bâtiment C concentre la majorité des cours des collégiens et dispose notamment de la vie scolaire et de l'intendance à son entrée puis des laboratoires SVT.",
     "matieres": [
       {
-        "name": "Mots de la direction",
-        "priority": 0,
-        "lycee": {
-          "texte": "Voici les mots de la direction, dans cette section, la proviseure de l'établissement vous présentera les débuts dans la classe de seconde au lycée Jean Moulin Chateaulin ainsi que ce qui arrivera après la seconde.",
-          "videos": ["https://www.youtube.com/embed/KvxhWoSN-vg"]
-        },
-        "college": null
-      },
-      {
         "name": "Secrétariat & Intendance",
         "priority": 0,
         "college": {
@@ -241,7 +232,7 @@
     "matieres": [
       {
         "name": "BTS Communication - Tycom",
-        "priority": 0,
+        "priority": -2,
         "lycee": {
           "texte": "Cette catégorie présente le nouveau BTS de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
           "videos": [
@@ -360,7 +351,7 @@
       },
       {
         "name": "Sciences et Technologies du Management et de la Gestion",
-        "priority": 0,
+        "priority": -1,
         "lycee": {
           "texte": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
           "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
