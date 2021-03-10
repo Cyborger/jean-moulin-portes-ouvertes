@@ -189,7 +189,7 @@
   },
   {
     "id": "D",
-    "description": "Le bâtiment D est, quant à lui, marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
+    "description": "Le bâtiment D est, marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
     "matieres": [
       {
         "name": "Internat",
