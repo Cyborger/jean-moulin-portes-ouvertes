@@ -251,6 +251,10 @@ async function load(){
     infoBackButton.addEventListener("click", () => {
         infoBoxContainer.style.display = "none"
     })
+
+    gtag("event", "circuit", {
+      value: parcours === "lycee" ? 1 : 0
+    })
 }
 
 document.querySelector("#retourmenu").addEventListener("click", () => window.location.redirect("/"));
