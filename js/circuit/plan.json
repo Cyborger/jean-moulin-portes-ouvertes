@@ -44,7 +44,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "texte": "Sur cette Section, nous vous présenterons une petite vidéo-capsule sur les mathématiques au collège, leur fonctionnement et l'accompagnement proposé.",
+          "texte": "Dans cette Section, vous trouverez vidéo-capsule sur les mathématiques au collège, leur fonctionnement et l'accompagnement proposé.",
           "videos": ["https://www.youtube.com/embed/_SWYMHrRJdg"]
         }
       },
@@ -53,7 +53,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "texte": "Sur cette catégorie, nous vous présenterons le français au collège, un matière essentielle à tous les élèves.",
+          "texte": "Dans cette Section, vous trouverez une présentation du français au collège, un matière essentielle à tous les élèves.",
           "genially": ["https://view.genial.ly/60264957d4fb4a0d20690ae6"]
         }
       },
@@ -61,11 +61,11 @@
         "name": "Histoire-Géographie",
         "priority": 1,
         "lycee": {
-          "texte": "L'histoire géographie est une matière se situant dans le tronc commun des étudiants au lycée, cela veut dire que cette matière est obligatoire pour tout le monde.",
+          "texte": "Dans cette Section, vous trouverez une présentation de l'histoire géographie, matière commune à tous les élèves en classe de seconde, première et terminale du lycée.",
           "videos": ["https://www.youtube.com/embed/ZH-kfo_Dw4I"]
         },
         "college": {
-          "texte": "Sur cette catégorie, vous allez être guidé sur une animation pour vous présenter l'histoire et la géographie au collège.",
+          "texte": "Dans cette Section, vous trouverez  une animation pour vous présenter l'histoire et la géographie au collège.",
           "genially": ["https://view.genial.ly/601990bc4fff9e0d8699aa8f"]
         }
       },
@@ -97,11 +97,11 @@
         "name": "Allemand",
         "priority": 1,
         "lycee": {
-          "texte": "Présentation de l'Allemand au lycée, une langue vivante pratiquée 2 heures par semaine.",
+          "texte": "Présentation de l'Allemand, une des langues vivantes enseignée au lycée.",
           "powtoon": ["https://www.powtoon.com/embed/efStEhlnSXl"]
         },
         "college": {
-          "texte": "Présentation de l'Allemand au collège, Une des langues vivantes présentes au collège Jean Moulin Chateaulin.",
+          "texte": "Présentation de l'Allemand au collège, une des langues vivantes enseignée au collège à partir de la sixième.",
           "powtoon": ["https://www.powtoon.com/embed/fn3VJ8Jwua4"]
         }
       },
@@ -136,11 +136,11 @@
         "name": "Espagnol",
         "priority": 1,
         "lycee": {
-          "texte": "Présentation de l'espagnol au lycée, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf\">cliquer ici</a>",
+          "texte": "Présentation de l'espagnol, une des langues vivantes enseignée au lycée. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf\">cliquer ici</a>",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-espagnol-lycee-jean-moulin.pdf"]
         },
         "college": {
-          "texte": "Présentation de l'espagnol au collège, une langue vivante pratiquée 2 heures par semaines. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf\">cliquer ici</a>",
+          "texte": "Présentation de l'espagnol au collège, une des langues vivantes enseignée au collège à partir de la cinquième. Si vous souhaitez plus d'informations veuillez <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf\">cliquer ici</a>",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/espagnol-college.pdf"]
         }
       },
@@ -148,7 +148,7 @@
         "name": "Humanités, Littérature et Philosophie",
         "priority": 2,
         "lycee": {
-          "texte": "Dans cette catégorie nous vous présenterons la spécialité Humanités, Littérature et Philosophie, une spécialité accesible après la seconde.<br/> un document pdf est mis à votre disposition pour vous informer sur cette spécialité, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf\">cliquez ici</a>.",
+          "texte": "Dans cette section, vous trouverez une présentation de Humanités, Littérature et Philosophie, enseignement de spécialité de première et de terminale.<br/> un document pdf est mis à votre disposition pour vous informer sur cette spécialité, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf\">cliquez ici</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/spe-humanitespresentation2.pdf"],
           "videos": ["https://www.youtube.com/embed/yVnp1w852SA", "https://www.youtube.com/embed/AueBjanSZLU"]
         },
@@ -158,7 +158,7 @@
         "name": "Langues, Littératures et Civilisations Étrangères",
         "priority": 2,
         "lycee": {
-          "texte": "Dans cette catégorie nous allons vous présenter la spécialité Langues, Littératures et Civilisations Étrangères, une spécialité uniquement accesible après la seconde.",
+          "texte": "Dans cette section, vous trouverez une présentation de Langues, Littératures et Civilisations Étrangères, enseignement de spécialité de première et de terminale. ",
           "genially": ["https://view.genial.ly/602e54f39689f70d371aa864"]
         },
         "college": null
@@ -204,7 +204,7 @@
         "name": "Théâtre",
         "priority": 2,
         "lycee": {
-          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
+          "texte": "Dans cette catégorie nous allons vous présenter l'option théâtre (dès la seconde) et la spécialité théâtre (à partir de la première). La salle théâtre est un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
           "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
         },
@@ -214,12 +214,12 @@
         "name": "Théâtre",
         "priority": 3,
         "lycee": {
-          "texte": "Dans cette catégorie nous allons vous présenter le théâtre et la spécialité théâtre disponible après la seconde, un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
+          "texte": "Dans cette catégorie nous allons vous présenter l'option théâtre (dès la seconde) et la spécialité théâtre (à partir de la première). La salle théâtre est un lieu incontournable dans l'enceinte de l'établissement scolaire avec des représentations et des activités régulièrement réalisées. Pour en apprendre plus, un document est mis à votre disposition, pour y accéder, <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf\">cliquez ici</a>",
           "videos": ["https://www.youtube.com/embed/KX8tJMBGB2w", "https://www.youtube.com/embed/tZqE879odpM"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/faire-du-theatre-au-lycee-jean-moulin2.pdf"]
         },
         "college": {
-          "texte": "Dans cette partie nous allons vous présenter l'option théâtre disponible au collège, une activité pour s'affirmer sur scène. Pour en apprendre plus vous pouvez vous référer au document mis à votre disposition, pour y accéder <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf\">cliquez ici</a>.",
+          "texte": "Dans cette partie nous allons vous présenter l'option théâtre (dès la sixième au collège), une activité pour s'affirmer sur scène. Pour en apprendre plus vous pouvez vous référer au document mis à votre disposition, pour y accéder <a href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf\">cliquez ici</a>.",
           "videos": ["https://www.youtube.com/embed/wai-TmxZkls", "https://www.youtube.com/embed/jclH3dDrIQg"],
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/la-classe-theatre-en-sixieme.pdf"]
         }
@@ -234,7 +234,7 @@
         "name": "BTS Communication - Tycom",
         "priority": -2,
         "lycee": {
-          "texte": "Cette catégorie présente le nouveau BTS de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
+          "texte": "Cette catégorie présente le nouveau BTS communication de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
           "videos": [
             "https://www.youtube.com/embed/siHcZeCDu94",
             "https://www.youtube.com/embed/OranGf2blgc",
@@ -242,14 +242,6 @@
           ]
         },
         "college": null
-      },
-      {
-        "name":"orientation",
-        "priority":-2,
-        "lycee":{
-          "texte":"L'orientation est un point essentiel lors de votre arrivée au lycée, c'est un élément décisif dans le choix de vos études supérieures. Une animation est mis à votre disposition pour en apprendre plus sur ce sujet.",
-          "genially":["https://view.genial.ly/604798aafcc4ed0d87546759"]
-        }
       },
       {
         "name": "Physique-Chimie",
@@ -276,7 +268,7 @@
         "name": "Sciences Numériques et Technologiques",
         "priority": 1,
         "lycee": {
-          "texte": "Cette catégorie sert à présenter les Sciences Numériques et Technologiques en seconde. Cette matière sert d'initiation à l'informatique et à la programmation.",
+          "texte": "Dans cette section, vous trouverez une présentation de Sciences Numériques et Technologiques en seconde. Cette matière est une initiation à l'informatique et à la programmation.",
           "genially": ["https://view.genial.ly/601ec3d4a14d110d147e0f1b"]
         },
         "college": null
@@ -285,7 +277,7 @@
         "name": "Numériques et Sciences Informatiques",
         "priority": 2,
         "lycee": {
-          "texte": "Cette catégorie présente la spécialité Numériques et Sciences Informatiques, qui est une matière éduquant les élèves à l'informatique mais aussi à d'autres catégories.",
+          "texte": "Dans cette section, vous trouverez une présentation de Numérique et Sciences Informatiques, enseignement de spécialité de première et de terminale. ",
           "genially": ["https://view.genial.ly/602051133668350d0014438d"]
         },
         "college": null
@@ -371,7 +363,7 @@
         "name": "Mathématiques",
         "priority": 1,
         "lycee": {
-          "texte": "Les Mathématiques sont obligatoires en seconde cependant, à partir de la première, cette matière se transforme en spécialité. Cette catégorie servira à vous présenter l'aspect global des mathématiques au lycée.",
+          "texte": "Les Mathématiques sont obligatoires en seconde. Cependant, à partir de la première, cette matière se transforme en spécialité. Dans cette section, vous trouverez une présentation des mathématiques au lycée.",
           "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
         },
         "college": null
@@ -380,7 +372,7 @@
         "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
         "priority": 2,
         "lycee": {
-          "texte": "l'Histoire-Géographie, Géopolitique et Sciences Politique est une spécialité de première et terminale, Cette catégorie servira à présenter la matière en question.",
+          "texte": "Dans cette section, vous trouverez une présentation de Histoire-Géographie, Géopolitique et Sciences Politiques, enseignement de spécialité de première et de terminale. ",
           "videos": ["https://www.youtube.com/embed/pkgbVNDgKtA"]
         },
         "college": null
