@@ -195,4 +195,46 @@
     margin: 2%;
     margin-bottom: 1vh;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  }
+}
+
+  /* "Responsive" */
+@media screen and (max-width: 670px){
+    .logo {width: 10vh;}
+    
+    .cookiesBand {
+      flex-direction: column;
+      font-size: 12px;
+      align-items: flex-start;
+      height: 25vh;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .cookiesBandText {
+      width: 100%;
+      margin-bottom: 1pc;
+    }
+  
+    .infoBox {width: 95%;}
+  
+    #menu .superposeHTML .elements {
+      padding: 2pc;
+      width: 95%;
+      text-align: center;
+    }
+    #menu .superposeHTML .choice {
+      margin: -3rem;
+      padding: 4pc 0;
+    }
+  
+    .modal_container > div {width: 95%;}
+    .modal_container iframe {width: 90vw;}
+    .modal_container button {
+      margin: .5pc 0;
+    }
+}
+
+@media screen and (orientation: portrait){
+    #menu .superposeHTML .elements {
+        padding: 1pc 6pc;
+        text-align: center;
+    }
+}
