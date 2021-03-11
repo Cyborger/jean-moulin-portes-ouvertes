@@ -94,6 +94,14 @@
     "description": "Le bâtiment B représente l'intersection entre la cour collège et la cour lycée de par sa passerelle en son entrée. Celui-ci regroupe notamment les matières liées aux langues.",
     "matieres": [
       {
+        "name": "DGEMC",
+        "priority": 3,
+        "lycee": {
+          "powtoon": ["https://www.powtoon.com/embed/bVNoChkWM2a/"]
+        },
+        "college": null
+      },
+      {
         "name": "Allemand",
         "priority": 1,
         "lycee": {
@@ -188,8 +196,8 @@
     ]
   },
   {
-    "id": "D",
-    "description": "Le bâtiment D est, marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
+    "id": "F",
+    "description": "Le bâtiment F est marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
     "matieres": [
       {
         "name": "Internat",
