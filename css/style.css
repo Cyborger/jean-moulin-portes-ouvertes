@@ -179,3 +179,7 @@ button:hover {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 670px){
+  .infoBox {width: 95%;}
+}
