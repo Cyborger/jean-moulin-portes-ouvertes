@@ -31,7 +31,7 @@ document
   .querySelector("#cookiesClose")
   .addEventListener("click", () => {
     localStorage.setItem("cookiesValidated", "true")
-    cookiesBand.style.transform = "translateY(20vh)";
+    cookiesBand.style.transform = "translateY(100vh)";
   })
 
 GoogleAnalyticsCheckbox.addEventListener("change", () => {

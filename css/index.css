@@ -169,7 +169,7 @@
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    transition: transform 1s ease;
+    transition: transform 3s ease;
 }
 
 .cookiesBand > button {
