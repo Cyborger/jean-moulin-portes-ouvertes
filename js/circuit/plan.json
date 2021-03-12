@@ -70,7 +70,7 @@
         }
       },
       {
-        "name": "Sciences de la Vie de la Terre",
+        "name": "Sciences de la Vie et de la Terre",
         "priority": 1,
         "lycee": {
           "texte": "Les Sciences de la Vie et de la Terre sont obligatoires en seconde et se retrouvent toujours sous la forme d'une spécialité les années suivantes. Cependant la SVT est toujours pratiquée par tous les élèves dans le cas de l'enseignement scientifique, une matière qui combine la SVT et la physique chimie dans le tronc commun."
