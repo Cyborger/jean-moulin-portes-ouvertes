@@ -374,7 +374,7 @@
         "lycee": {
           "texte": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
           "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
-          "powtoon": ["https://www.powtoon.com/embed/fpVC8WgnHoB/"]
+          "powtoon": ["https://www.powtoon.com/embed/cz7B3aypKlp/"]
         },
         "college": null
       },
@@ -384,6 +384,15 @@
         "lycee": {
           "texte": "Dans cette section, vous trouverez une présentation de Histoire-Géographie, Géopolitique et Sciences Politiques, enseignement de spécialité de première et de terminale. ",
           "videos": ["https://www.youtube.com/embed/pkgbVNDgKtA"]
+        },
+        "college": null
+      },
+      {
+        "name": "Management et gestion",
+        "priority": 3,
+        "lycee": {
+          "texte": "L'option management et gestion est une option proposée aux élèves de secondes présentant l'histoire et le fonctionnement des organisations par le biais de projets individuels et collectifs.",
+          "powtoon": ["https://www.powtoon.com/embed/fpVC8WgnHoB/"]
         },
         "college": null
       }
