@@ -182,4 +182,20 @@ button:hover {
 
 @media screen and (max-width: 670px){
   .infoBox {width: 95%;}
+
+  #menu .superposeHTML .elements {
+    padding: 2pc;
+    width: 95%;
+    text-align: center;
+  }
+  #menu .superposeHTML .choice {
+    margin: -3rem;
+    padding: 4pc 0;
+  }
+
+  .modal_container > div {width: 95%;}
+  .modal_container iframe {width: 90vw;}
+  .modal_container button {
+    margin: .5pc 0;
+  }
 }
