@@ -70,7 +70,7 @@
         }
       },
       {
-        "name": "Sciences et Vie de la Terre",
+        "name": "Sciences de la Vie de la Terre",
         "priority": 1,
         "lycee": {
           "texte": "Les Sciences de la Vie et de la Terre sont obligatoires en seconde et se retrouvent toujours sous la forme d'une spécialité les années suivantes. Cependant la SVT est toujours pratiquée par tous les élèves dans le cas de l'enseignement scientifique, une matière qui combine la SVT et la physique chimie dans le tronc commun."
@@ -254,6 +254,15 @@
         "college": null
       },
       {
+        "name": "Mathématiques",
+        "priority": 1,
+        "lycee": {
+          "texte": "Les Mathématiques sont obligatoires en seconde. Cependant, à partir de la première, cette matière se transforme en spécialité. Dans cette section, vous trouverez une présentation des mathématiques au lycée.",
+          "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
+        },
+        "college": null
+      },
+      {
         "name": "Physique-Chimie",
         "priority": 1,
         "lycee": {
@@ -366,15 +375,6 @@
           "texte": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
           "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
           "powtoon": ["https://www.powtoon.com/embed/fpVC8WgnHoB/"]
-        },
-        "college": null
-      },
-      {
-        "name": "Mathématiques",
-        "priority": 1,
-        "lycee": {
-          "texte": "Les Mathématiques sont obligatoires en seconde. Cependant, à partir de la première, cette matière se transforme en spécialité. Dans cette section, vous trouverez une présentation des mathématiques au lycée.",
-          "genially": ["https://view.genial.ly/601bddeeeb4c540d10a8ef94"]
         },
         "college": null
       },
