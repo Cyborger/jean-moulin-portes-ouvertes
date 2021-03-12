@@ -137,3 +137,54 @@ i {margin-right: 0.8pc;}
   display: none;
   z-index: 1;
 }
+
+/* "Responsive" */
+@media screen and (max-width: 670px){
+  .logo {width: 10vw;}
+  button {font-size: 5vh !important;}
+  button i {display: none !important;}
+
+  .side {
+    width: 35%;
+    right: -39vw;
+  }
+  .side button {
+    font-size: 4vh !important;
+  }
+
+  .subtitle {
+    margin-top: .5pc;
+    font-size: 3.5vw;
+  }
+
+  .parent {overflow: auto;}
+
+  .choose {margin-bottom: .5pc !important;}
+
+  .receptacle i {margin: 0 1pc;}
+  .receptacle {
+    justify-content: center;
+  }
+}
+
+@media screen and (orientation:portrait) {
+  body *{
+    display:none;
+  }
+  body::before{
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    content:"Pour accéder au site veuillez mettre votre téléphone en mode paysage.";
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    font-size:1.5em;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    url(/img/map.jpg);
+  }
+}

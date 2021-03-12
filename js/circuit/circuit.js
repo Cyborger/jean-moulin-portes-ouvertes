@@ -246,15 +246,17 @@ async function load(){
 
     infoButton.addEventListener("click", () => {
         infoBoxContainer.style.display = "flex"
-    })
+    });
 
     infoBackButton.addEventListener("click", () => {
         infoBoxContainer.style.display = "none"
-    })
+    });
 
     gtag("event", "circuit", {
       value: parcours === "lycee" ? 1 : 0
-    })
+    });
+    
+    infoButton.click();
 }
 
 document.querySelector("#retourmenu").addEventListener("click", () => window.location.redirect("/"));
