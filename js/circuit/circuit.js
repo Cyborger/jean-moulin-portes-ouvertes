@@ -84,29 +84,20 @@ class Sidebar {
 
             //Ouvre la box adéquat
             const documentsActu = {
-              texte: { content: parcours.texte, type: "p" },
+              description: { content: parcours.description, type: "p" },
               diaporama: { content: parcours?.images, type: "img" },
               videos: { content: parcours?.videos, type: "iframe" },
               animation: { content: parcours?.powtoon ?? parcours?.genially, type: "iframe" },
             };
             const elementPresents = {};
             for (const element of Object.entries(documentsActu)) {
-              console.log(element);
               if (element[1].content) {
                 elementPresents[element[0]] = element[1];
               }
             }
-            console.log(parcours);
             const currentBox = new Box(
               "details",
-              elementPresents /* {
-              texte: { content: parcours.texte, type: "p" },
-              videos: {
-                content: parcours.videos,
-                type: "iframe",
-              },
-              animation: { content: parcours.powtoon ?? parcours.genially, type: "iframe" },
-            }*/
+              elementPresents
             );
 
             currentBox.mount();
@@ -146,8 +137,7 @@ class Sidebar {
   }
 
   set description(value) {
-    this.descriptionHTML = document.createElement("span");
-    this.descriptionHTML.className = "description";
+    this.descriptionHTML = document.createElement("p");
     this.descriptionHTML.innerHTML = value;
   }
 }

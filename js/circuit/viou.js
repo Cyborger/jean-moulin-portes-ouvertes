@@ -3,7 +3,7 @@ export class Box {
   constructor( // initialisation à partir de constructor
     id,
     elements = {
-      texte: { content: "", type: "p" },
+      description: { content: "", type: "p" },
       diaporama: {
         content: [],
         type: "img",
