@@ -8,7 +8,7 @@ body {
 .title {
   font-family: "PT Serif", serif;
   font-size: 39px;
-  margin: 4vh 0;
+  margin: 4vh 0 1vh 0;
   border-bottom: 1px solid white;
 }
 .subtitle {
@@ -16,13 +16,6 @@ body {
   font-size: 29px;
   margin-bottom: 1vh;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-.description {
-  font-family: "PT Serif", serif;
-  font-size: 14px;
-  text-align: justify;
-  text-justify: inter-word;
-  margin-bottom: 3vh;
 }
 
 .viewed {
@@ -96,6 +89,14 @@ i {margin-right: 0.8pc;}
     align-items: stretch;
     font-size: 1.5vh;
     transition: transform 1s ease;
+}
+
+.side > p {
+  font-family: "PT Serif", serif;
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 3vh;
 }
 
 .subjects {

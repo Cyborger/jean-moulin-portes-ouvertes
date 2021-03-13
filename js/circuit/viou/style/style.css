@@ -104,7 +104,7 @@ iframe {
   align-items: center;
 }
 
-#texte {
+#description {
   display: flex;
   flex-direction: column;
   justify-content: center;
