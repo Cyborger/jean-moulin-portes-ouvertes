@@ -212,10 +212,15 @@
       width: 100%;
       margin-bottom: 1pc;
     }
+
+    .subtitle {font-size: 8vw;}
+
+    #retour {margin-bottom: 2pc;}
   
     #menu .superposeHTML .elements {
         display: flex;
         width: 95%;
+        height: 90%;
         text-align: center;
     }
     #menu .superposeHTML .elements > div {
@@ -228,12 +233,5 @@
     .modal_container iframe {width: 90vw !important;}
     .modal_container button {
       margin: .5pc 0 !important;
-    }
-}
-
-@media screen and (orientation: portrait){
-    #menu .superposeHTML .elements {
-        padding: 1pc 6pc;
-        text-align: center;
     }
 }

@@ -13,7 +13,6 @@ function changeVideo(index) {
 
 function videoIntegre() {
   diapoVideo = document.querySelector(".b-videos").children;
-  console.log(diapoVideo);
   changeVideo(0);
 
   acc = 0;
