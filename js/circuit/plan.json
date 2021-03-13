@@ -257,7 +257,7 @@
         "name": "Orientation",
         "priority": -2,
         "lycee": {
-          "texte":"L'orientation est un point essentiel lors de votre arrivée au lycée, c'est un élément décisif dans le choix de vos études supérieures. Une animation est mis à votre disposition pour en apprendre plus sur ce sujet.",
+          "description":"L'orientation est un point essentiel lors de votre arrivée au lycée, c'est un élément décisif dans le choix de vos études supérieures. Une animation est mis à votre disposition pour en apprendre plus sur ce sujet.",
           "genially":["https://view.genial.ly/604798aafcc4ed0d87546759"]
         },
         "college": null
