@@ -140,7 +140,7 @@ i {margin-right: 0.8pc;}
 }
 
 /* "Responsive" */
-@media screen and (orientation: landscape){
+@media screen and (orientation: landscape) and (max-width: 800px){
   .logo {width: 10vw;}
   button {font-size: 5vh !important;}
   button i {display: none !important;}
