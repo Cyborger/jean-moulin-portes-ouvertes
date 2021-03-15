@@ -73,10 +73,10 @@
         "name": "Sciences de la Vie et de la Terre",
         "priority": 1,
         "lycee": {
-          "description": "Les Sciences de la Vie et de la Terre sont obligatoires en seconde et se retrouvent toujours sous la forme d'une spécialité les années suivantes. Cependant la SVT est toujours pratiquée par tous les élèves dans le cas de l'enseignement scientifique, une matière qui combine la SVT et la physique chimie dans le tronc commun."
+          "description": "Les sciences de la vie et de la Terre (SVT), dans le prolongement du collège, permettent d'acquérir une culture scientifique solide pour comprendre le monde actuel et ses enjeux.<br><br>Au cours de séances, les élèves sont pleinement acteurs de leur apprentissage par la mise en œuvre de démarches de résolution de problèmes scientifiques.<br><br>Les SVT font partie des enseignements communs en seconde ainsi qu’en 1ère et Terminale de la voie générale, dans le cadre de l’enseignement scientifique.<br><br>Cet enseignement peut être choisi en Spécialité en 1ère et Terminale de la voie générale"
         },
         "college": {
-          "description": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens, on y étudie différents sujets comme la géologie, l'étude du corps humain, ou encore l'étude des comportements animaliers. Tous les élèves pratiquent 2 heures de SVT chaque semaine."
+          "description": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens.<br><br>On y étudie différents sujets comme  la géologie, la formation des paysages, les fonctions des organes du corps humain, les interactions entre les êtres vivants.<br><br>On y découvre l'infiniment petit à l'aide de matériel perfectionné, on expérimente des hypothèses sur le vivant. On manipule !!!<br><br>Tous les élèves ont 1h de SVT toutes les semaines et 1h en demi-groupe une semaine sur deux.<br><br>"
         }
       },
       {
@@ -359,6 +359,24 @@
         }
       },
       {
+        "name": "Secourisme",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "description": "Cette catégorie sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
+          "videos": ["https://www.youtube.com/embed/Y1Yic_erKj0"]
+        }
+      },
+      {
+        "name": "Voyages au collège",
+        "priority": 0,
+        "lycee": null,
+        "college": {
+          "description": "Chaque année, au collège, des voyages sont organisés comme le voyage au ski, cette catégorie servira à vous présenter les différents voyages qui ont étés réalisés les années précédentes.",
+          "videos": ["https://www.youtube.com/embed/XXZ8u7AdW3s"]
+        }
+      },
+      {
         "name": "Web Radio",
         "priority": 0,
         "lycee": {
@@ -366,15 +384,6 @@
         },
         "college": {
           "description": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
-        }
-      },
-      {
-        "name": "Secourisme",
-        "priority": 0,
-        "lycee": null,
-        "college": {
-          "description": "Cette catégorie sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
-          "videos": ["https://www.youtube.com/embed/Y1Yic_erKj0"]
         }
       },
       {
@@ -411,15 +420,6 @@
     "id": "EPS",
     "description": "L'établissement propose ses cours d'Éducation Physique et Sportive dans le gymnase Hervé Mao, dans un espace extérieur large, et dans un terrain de tennis couvert. Les activités sont diverses et l'établissement propose une classe de ski pour les cinquièmes.",
     "matieres": [
-      {
-        "name": "Voyages en EPS",
-        "priority": 0,
-        "lycee": null,
-        "college": {
-          "description": "Au cours de l'année, des voyages en EPS peuvent être réalisés (exemple: voyage au ski), cette catégorie servira à vous présenter les différents voyages qui ont étés réalisés en rapport à l'éducation physique et sportive.",
-          "videos": ["https://www.youtube.com/embed/XXZ8u7AdW3s"]
-        }
-      },
       {
         "name": "Éducation Physique et Sportive",
         "priority": 1,
