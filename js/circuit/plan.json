@@ -73,10 +73,12 @@
         "name": "Sciences de la Vie et de la Terre",
         "priority": 1,
         "lycee": {
-          "description": "Les sciences de la vie et de la Terre (SVT), dans le prolongement du collège, permettent d'acquérir une culture scientifique solide pour comprendre le monde actuel et ses enjeux.<br><br>Au cours de séances, les élèves sont pleinement acteurs de leur apprentissage par la mise en œuvre de démarches de résolution de problèmes scientifiques.<br><br>Les SVT font partie des enseignements communs en seconde ainsi qu’en 1ère et Terminale de la voie générale, dans le cadre de l’enseignement scientifique.<br><br>Cet enseignement peut être choisi en Spécialité en 1ère et Terminale de la voie générale"
+          "description": "Les sciences de la vie et de la Terre (SVT), dans le prolongement du collège, permettent d'acquérir une culture scientifique solide pour comprendre le monde actuel et ses enjeux.<br><br>Au cours de séances, les élèves sont pleinement acteurs de leur apprentissage par la mise en œuvre de démarches de résolution de problèmes scientifiques.<br><br>Les SVT font partie des enseignements communs en seconde ainsi qu’en 1ère et Terminale de la voie générale, dans le cadre de l’enseignement scientifique.<br><br>Cet enseignement peut être choisi en Spécialité en 1ère et Terminale de la voie générale",
+          "videos": ["https://www.youtube.com/embed/qOd87O2yiT8"]
         },
         "college": {
-          "description": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens.<br><br>On y étudie différents sujets comme  la géologie, la formation des paysages, les fonctions des organes du corps humain, les interactions entre les êtres vivants.<br><br>On y découvre l'infiniment petit à l'aide de matériel perfectionné, on expérimente des hypothèses sur le vivant. On manipule !!!<br><br>Tous les élèves ont 1h de SVT toutes les semaines et 1h en demi-groupe une semaine sur deux.<br><br>"
+          "description": "Les Sciences de la Vie et de la Terre sont obligatoires pour les collégiens.<br><br>On y étudie différents sujets comme  la géologie, la formation des paysages, les fonctions des organes du corps humain, les interactions entre les êtres vivants.<br><br>On y découvre l'infiniment petit à l'aide de matériel perfectionné, on expérimente des hypothèses sur le vivant. On manipule !!!<br><br>Tous les élèves ont 1h de SVT toutes les semaines et 1h en demi-groupe une semaine sur deux.<br><br>",
+          "videos": ["https://www.youtube.com/embed/qOd87O2yiT8"]
         }
       },
       {
@@ -201,6 +203,16 @@
     "id": "F",
     "description": "Le bâtiment F est marqué par le hall lycéen, la salle théâtre, l'internat et par l'infirmerie.",
     "matieres": [
+      {
+        "name": "Infirmerie",
+        "priority": 0,
+        "lycee": {
+          "description": "Une présence infirmière tous les jours de la semaine pour les collégiens et les lycéens. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/03/presentation-de-linfirmerie-jean-moulin-chateaulin.pdf\">sur ce lien</a>."
+        },
+        "college": {
+          "description": "Une présence infirmière tous les jours de la semaine pour les collégiens et les lycéens. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/03/presentation-de-linfirmerie-jean-moulin-chateaulin.pdf\">sur ce lien</a>."
+        }
+      },
       {
         "name": "Internat",
         "priority": 0,
