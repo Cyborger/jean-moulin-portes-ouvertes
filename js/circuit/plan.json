@@ -1,7 +1,7 @@
 [
   {
     "id": "C",
-    "description": "Le bâtiment C concentre la majorité des cours des collégiens et dispose notamment de la vie scolaire et de l'intendance à son entrée puis des laboratoires SVT.",
+    "description": "Le bâtiment C concentre la majorité des cours des collégiens et comporte notamment la vie scolaire et l'intendance au rez de chaussée puis les laboratoires SVT au premier étage.",
     "matieres": [
       {
         "name": "Secrétariat & Intendance",
@@ -10,7 +10,7 @@
           "description": "Voici un document du Secrétariat et de l'intendance sur l'inscription en 6e au collège Jean Moulin.<br/><a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/linscription-en-6e-deroulement-et-calendrier-2021.pdf\">Cliquez ici pour y accéder</a>."
         },
         "lycee": {
-          "description": "Voici une petite illustration concernant les services administratifs du lycée Jean Moulin.<br/><a target=\"_blank\" href=\"https://www.canva.com/design/DAEVLsqQWgA/yjjDL44pKsran_u3EywfZA/view\">Cliquez ici pour y accéder</a>."
+          "description": "Voici une présentation des services administratifs du lycée Jean Moulin.<br/><a target=\"_blank\" href=\"https://www.canva.com/design/DAEVLsqQWgA/yjjDL44pKsran_u3EywfZA/view\">Cliquez ici pour y accéder</a>."
         },
         "commun": {
           "pdf": [
@@ -31,11 +31,11 @@
         "name": "Vie Scolaire",
         "priority": 0,
         "lycee": {
-          "description": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
+          "description": "La Vie Scolaire assure la gestion des retards et absences des élèves, la gestion des élèves qui ne sont pas sous la responsabilité d'un enseignant et le bon fonctionnement de l'établissement.",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         },
         "college": {
-          "description": "La Vie Scolaire est un service à part entière de la cité scolaire Jean Moulin Chateaulin qui permet de vous prévenir en cas d'abscences des professeurs mais aussi d'assurer le bon fonctionnement de l'établissement.",
+          "description": "La Vie Scolaire assure la gestion des retards et absences des élèves, la gestion des élèves qui ne sont pas sous la responsabilité d'un enseignant et le bon fonctionnement de l'établissement.",
           "videos": ["https://www.youtube.com/embed/CedodJ_ZrNY"]
         }
       },
@@ -131,7 +131,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "description": "L'Art plastique est une matière exclusive au collège, voici un document pour découvrir ce qu'on y fait.<br/>Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf\">sur ce lien</a>.",
+          "description": "L'Art plastique est une matière enseignée au collège, voici un document pour découvrir ce qu'on y fait.<br/>Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf\">sur ce lien</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/portes-ouvertes-.pdf.pdf"]
         }
       },
@@ -140,7 +140,7 @@
         "priority": 1,
         "lycee": null,
         "college": {
-          "description": "L'éductation musicale est une matière exclusive au collège, Sur cette partie vous verrez deux petites vidéos pour découvrir les activités réalisées.",
+          "description": "L'éducation musicale est une matière enseignée au collège, Sur cette partie vous verrez deux petites vidéos pour découvrir les activités réalisées.",
           "videos": ["https://www.youtube.com/embed/oe_WY9FRDFc", "https://www.youtube.com/embed/JEBclH5viCg"]
         }
       },
@@ -256,7 +256,7 @@
         "name": "BTS Communication - Tycom",
         "priority": -2,
         "lycee": {
-          "description": "Cette catégorie présente le nouveau BTS communication de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur ce projet.",
+          "description": "Cette catégorie présente le nouveau BTS communication de Jean Moulin nommé Tycom, nous mettons à disposition 3 vidéos pour vous informer sur cete formation.",
           "videos": [
             "https://www.youtube.com/embed/siHcZeCDu94",
             "https://www.youtube.com/embed/OranGf2blgc",
@@ -287,11 +287,11 @@
         "name": "Physique-Chimie",
         "priority": 1,
         "lycee": {
-          "description": "Presentation de la physique-chimie au lycée, les compétences enseignées et les objectifs.",
+          "description": "Cette rubrique présente la physique-chimie au lycée, les compétences développées et les objectifs.",
           "genially": ["https://view.genial.ly/601854eae1ff910d7ce2cb76"]
         },
         "college": {
-          "description": "Cette catégorie présente la physique-chimie au collège, les compétences enseignées, les thèmes ainsi que les objectifs.",
+          "description": "Cette rubrique présente la physique-chimie au collège, les compétences développées, les thèmes ainsi que les objectifs.",
           "genially": ["https://view.genial.ly/600eca9d4399e60db589070b"]
         }
       },
@@ -299,7 +299,7 @@
         "name": "Sciences Économiques et Sociales",
         "priority": 1,
         "lycee": {
-          "description": "Cette catégorie présente les Sciences Économiques et Sociales (SES), une matière enseignée à tous en seconde puis en spécialité les années suivantes.",
+          "description": "Cette rubrique présente les Sciences Économiques et Sociales (SES), une matière enseignée à tous en seconde puis en spécialité les années suivantes.",
           "videos": ["https://www.youtube.com/embed/g3igcmsfz40"]
         },
         "college": null
@@ -362,11 +362,11 @@
         "name": "Projets",
         "priority": 0,
         "lycee": {
-          "description": "Cette partie est consacrée aux projets du lycée Jean Moulin Chateaulin. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf\">sur ce lien</a>.",
+          "description": "Cette partie est consacrée aux projets du lycée Jean Moulin de Chateaulin. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf\">sur ce lien</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-lycee.pdf"]
         },
         "college": {
-          "description": "Cette partie est consacrée aux projets du collège Jean Moulin Chateaulin. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf\">sur ce lien</a>.",
+          "description": "Cette partie est consacrée aux projets du collège Jean Moulin de Chateaulin. Pour plus d'informations, un pdf vous est disponible <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf\">sur ce lien</a>.",
           "pdf": ["https://citescolairejmoulinchateaulin.files.wordpress.com/2021/02/presentation-projets-college.pdf"]
         }
       },
@@ -375,7 +375,7 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "description": "Cette catégorie sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
+          "description": "Cette rubrique sert à vous présenter un cours de secourisme réalisé par des collégiens de Jean Moulin Chateaulin.",
           "videos": ["https://www.youtube.com/embed/Y1Yic_erKj0"]
         }
       },
@@ -384,7 +384,7 @@
         "priority": 0,
         "lycee": null,
         "college": {
-          "description": "Chaque année, au collège, des voyages sont organisés comme le voyage au ski, cette catégorie servira à vous présenter les différents voyages qui ont étés réalisés les années précédentes.",
+          "description": "Chaque année, au collège, des voyages sont organisés comme le voyage au ski en classe de cinquième, cette rubrique servira à vous présenter les différents voyages qui ont étés réalisés les années précédentes.",
           "videos": ["https://www.youtube.com/embed/XXZ8u7AdW3s"]
         }
       },
@@ -392,17 +392,17 @@
         "name": "Web Radio",
         "priority": 0,
         "lycee": {
-          "description": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
+          "description": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur <a target=\"_blank\" href=\"https://audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin\">Arte Radio</a>."
         },
         "college": {
-          "description": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement  de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur Arte Radio :audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin"
+          "description": "Les élèves du collège, du lycée ainsi que les élèves de BTS peuvent profiter du studio radio qui se situe au CDI. Ils peuvent venir sur le temps du midi dans le cadre d'un atelier Webradio ou bien sur le temps de classe avec leurs professeurs. Les professeurs d'allemand, de théâtre, de français, de musique, d'anglais et d'histoire se servent régulièrement de cet outil. Outil d'ouverture aux médias mais également un outil intéressant pour travailler les langues, la prononciation et l'écoute. Désormais les émissions peuvent être écoutées sur <a target=\"_blank\" href=\"https://audioblog.arteradio.com/blog/141358/rjm-radio-jean-moulin\">Arte Radio</a>."
         }
       },
       {
         "name": "Sciences et Technologies du Management et de la Gestion",
         "priority": -1,
         "lycee": {
-          "description": "La filière STMG est une filière à part entière de Jean Moulin, elle bénéficie d'une classe propre à elle. Cette catégorie servira ainsi à faire la présentation de la filière Sciences et Technologies du Management et de la Gestion.",
+          "description": "La filière Sciences et Technologies du Management et de la Gestion est une filière technologique. Cette formation est centrée sur les sciences de gestion et le management des organisations pour comprendre leur fonctionnement.",
           "videos": ["https://www.youtube.com/embed/ID1pT1LMfBA"],
           "powtoon": ["https://www.powtoon.com/embed/cz7B3aypKlp/"]
         },
@@ -412,7 +412,7 @@
         "name": "Histoire-Géographie, Géopolitique et Sciences Politiques",
         "priority": 2,
         "lycee": {
-          "description": "Dans cette section, vous trouverez une présentation de Histoire-Géographie, Géopolitique et Sciences Politiques, enseignement de spécialité de première et de terminale. ",
+          "description": "Dans cette section, vous trouverez une présentation de Histoire-Géographie, Géopolitique et Sciences Politiques, enseignement de spécialité de première et de terminale. Cette spécialité permet d'acquérir les clés de compréhension du monde passé et actuel. ",
           "videos": ["https://www.youtube.com/embed/pkgbVNDgKtA"]
         },
         "college": null
@@ -430,17 +430,17 @@
   },
   {
     "id": "EPS",
-    "description": "L'établissement propose ses cours d'Éducation Physique et Sportive dans le gymnase Hervé Mao, dans un espace extérieur large, et dans un terrain de tennis couvert. Les activités sont diverses et l'établissement propose une classe de ski pour les cinquièmes.",
+    "description": "L'établissement propose ses cours d'Éducation Physique et Sportive dans le gymnase Hervé Mao, dans un espace extérieur large, et dans une halle de tennis couverte.",
     "matieres": [
       {
         "name": "Éducation Physique et Sportive",
         "priority": 1,
         "lycee": {
-          "description": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "description": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet notamment l'épanouissement des élèves à travers des activités sportives.  ",
           "videos": ["https://www.youtube.com/embed/xbD9ByVBxnU"]
         },
         "college": {
-          "description": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet nottament l'épanouissement des élèves dans une discipline sportive peu importe leur niveau.",
+          "description": "L'éducation Physique et Sportive est une matière obligatoire. Elle permet notamment l'épanouissement des élèves à travers des activités sportives.  Au cours de l'année de cinquième, un séjour d'une semaine au ski est proposé à tous les élèves de ce niveau.",
           "videos": ["https://www.youtube.com/embed/j9c1OscfRuQ"]
         }
       }
@@ -448,7 +448,7 @@
   },
   {
     "id": "Self",
-    "description": "Le Self permet de nourrir les élèves de l'établissement chaque midi et les lycéens de l'internat les matins et les soirs.",
+    "description": "La cité scolaire propose un service de restauration mutualisé aux collègiens, lycéens et personnels. L'équipe du service met chaque jour tout en oeuvre pour offrir aux convives des préparations de qualité, variées et équilibrées.",
     "matieres": [
       {
         "name": "Organisation du self",
