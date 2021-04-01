@@ -217,7 +217,7 @@
         "name": "Internat",
         "priority": 0,
         "lycee": {
-          "description": "l'internat est un lieu pour héberger les élèves ne pouvant pas rentrer le soir chez eux, ainsi grâce à l'internat, ces élèves sont nourris et logés le matin et le soir.",
+          "description": "L'internat est un lieu pour héberger les élèves ne pouvant pas rentrer le soir chez eux, ainsi grâce à l'internat, ces élèves sont nourris et logés le matin et le soir.<br><br>Vous pouvez d'ores et déjà y remplir <a target=\"_blank\" href=\"https://citescolairejmoulinchateaulin.files.wordpress.com/2021/04/dossier-inscription-internat_2021-version-site-internet.pdf\">le formulaire de pré-inscription</a> à renvoyer à l'établissement pour le 3 juin 2021.",
           "videos": ["https://www.youtube.com/embed/rYb3-ncgwqc"]
         },
         "college": null
